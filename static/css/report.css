@@ -1,0 +1,22 @@
+.footerContent {
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.subcontent2 {
+    width: 100%;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+hr {
+    margin-top: 1em;
+    border-color: #dddddd;
+    color: #dddddd;
+    background-color: #dddddd;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+}

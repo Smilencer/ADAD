@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/symptom.css">
+    <script src="/static/js/symptom.js"></script>
+</head>
+<body>
+<div data-role="page" id="pageone">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>ADAD</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <form method="post" action="/ajax/">
+            <input type="hidden" name="userID" id="userID" value="{{ userID }}">
+            <input type="hidden" name="cmd" value="symtom">
+            <div class="subtitle">
+                <b>Types of Alzheimer's Disease</b>
+            </div>
+            <div class="subcontent">
+                <fieldset data-role="controlgroup" data-type="horizontal" class="ui-mini">
+                    <label for="fad">Familial</label>
+                    <input type="radio" name="adtype" id="fad" value="F"{% if type == "F" %} checked="true"{% endif %}>
+                    <label for="eoad">Early-onset</label>
+                    <input type="radio" name="adtype" id="eoad" value="E"{% if type == "E" %} checked="true"{% endif %}>
+                    <label for="load">Late-onset</label>
+                    <input type="radio" name="adtype" id="load" value="L"{% if type == "L" %} checked="true"{% endif %}>
+                </fieldset>
+            </div>
+            <hr>
+            <div class="subtitle">
+                <b>Signs and Symptons</b>
+            </div>
+            <div class="subcontent">
+                <fieldset data-role="controlgroup" class="ui-mini">
+                    <label for="lapses">Memory Lapses</label>
+                    <input type="checkbox" name="sympton" id="lapses" value="sym1"{% if sym1 %} checked="true"{% endif %}>
+                    <label for="dd">Dischronation and Disorientation</label>
+                    <input type="checkbox" name="sympton" id="dd" value="sym2"{% if sym2 %} checked="true"{% endif %}>
+                    <label for="anxiety">Anxiety</label>
+                    <input type="checkbox" name="sympton" id="anxiety" value="sym3"{% if sym3 %} checked="true"{% endif %}>
+                    <label for="incontinence">Fecal and Urinary Incontinence</label>
+                    <input type="checkbox" name="sympton" id="incontinence" value="sym4"{% if sym4 %} checked="true"{% endif %}>
+                    <label for="stiffness">Stiffness</label>
+                    <input type="checkbox" name="sympton" id="stiffness" value="sym5"{% if sym5 %} checked="true"{% endif %}>
+                </fieldset>
+            </div>
+            <hr>
+            <div class="subtitle">
+                <b>Symptom Description</b>
+            </div>
+            <div class="subcontent">
+                <textarea name="description" id="description" class="ui-mini">{{ description }}</textarea>
+            </div>
+            <hr>
+            <div class="btn-container">
+                <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="reset()">Reset</a>
+                <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="next()">Next</a>
+            </div>
+        </form>
+        <div data-role="popup" id="exception" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Alert: invalid information.</p>
+        </div>
+        <a href="#exception" data-rel="popup" class="ui-btn" data-position-to="window" id="toPop"></a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about1" data-rel="popup" data-position-to="window">About</a>
+            <a class="footerContent" href="#contact1" data-rel="popup" data-position-to="window">Contact</a>
+        </h1>
+        <div data-role="popup" id="about1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>The <b>A</b>lzheimer's <b>D</b>isease <b>A</b>ssessment and <b>D</b>iagnosis
+                (<b>ADAD</b>) toolset provides cognitive screening services and auxiliary diagnosis
+                of AD.</p>
+        </div>
+        <div data-role="popup" id="contact1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Address: 100 Noname Street, Germany.</p>
+            <p>Email: johndoe@gmail.com</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

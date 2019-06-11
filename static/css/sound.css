@@ -1,0 +1,35 @@
+audio {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.ui-icon-recording:after {
+    background-image: url("../images/moca/recording.png");
+}
+
+.ui-icon-stop:after {
+    background-image: url("../images/moca/stop.png");
+}
+
+.audio-btn {
+    margin: 1em 0 !important;
+}
+
+#workingArea {
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+#puff_svg {
+    transform: scale(1.8);
+}
+
+.working_svg {
+    display: none;
+}
+
+#tap {
+    padding: 2em 1em;
+    font-size: 2em;
+}

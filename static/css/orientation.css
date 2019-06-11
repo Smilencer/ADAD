@@ -1,0 +1,31 @@
+.footerContent {
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+}
+
+.ui-block-a, .ui-block-b {
+    line-height: 2;
+    text-align: center;
+}
+
+.ui-block-a{
+    width: 30% !important;
+}
+
+.ui-block-b{
+    width: 70% !important;
+}
+
+.ui-grid-a {
+    margin: 1em 0;
+}
+
+.ui-block-b div {
+    margin: 0 auto;
+    width: 70%;
+}

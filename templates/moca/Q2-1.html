@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet"
+          href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="/static/css/animal.css">
+    <script src="/static/js/animal.js"></script>
+</head>
+<body>
+<div data-role="page" id="main">
+    <div data-role="panel" id="myPanel">
+        <p>Write down the name of this animal.</p>
+    </div>
+    <div data-role="header" data-position="fixed">
+        <h1>Question 2-1</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
+        <a href="#myPanel">Click here for the instruction.</a>
+        <div class="animal">
+            <img src="/static/images/moca/{{ version }}/q2-1.png" width="250" height="200">
+        </div>
+        <div class="answer">
+            <label for="animalname">Name:</label>
+            <input type="text" name="animalname" id="animalname">
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed" style="text-align:center;">
+        <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q2-1')"
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
+            Question</a>
+    </div>
+</div>
+</body>
+</html>

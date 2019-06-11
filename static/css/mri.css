@@ -1,0 +1,67 @@
+.footerContent {
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.subcontent2 {
+    width: 100%;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.subcontent2 .ui-input-text {
+    margin: 0;
+    border: 0;
+}
+
+.subcontent3 .ui-input-text {
+    margin: 0;
+    border: 0;
+}
+
+.ui-grid-a, .ui-grid-c {
+    margin: .5em 0;
+}
+
+.subcontent2 .ui-block-a {
+    width: 40% !important;
+    line-height: 2;
+}
+
+.subcontent3 .ui-block-a, .subcontent3 .ui-block-c {
+    width: 30% !important;
+    line-height: 2;
+    text-align: center;
+}
+
+.ui-block-a label {
+    margin: 0;
+}
+
+.subcontent2 .ui-block-b {
+    width: 60% !important;
+}
+
+.subcontent3 .ui-block-b, .subcontent3 .ui-block-d {
+    width: 20% !important;
+}
+
+hr {
+    margin-top: 1em;
+    border-color: #dddddd;
+    color: #dddddd;
+    background-color: #dddddd;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+}
+
+.gallery {
+    display: none;
+}
+
+.gallery img {
+    width: 100%;
+}

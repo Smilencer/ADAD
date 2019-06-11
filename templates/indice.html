@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/indice.css">
+    <script src="/static/js/indice.js"></script>
+</head>
+<body>
+<input type="hidden" name="age" id="age" value="{{ age }}">
+<input type="hidden" name="gender" id="gender" value="{{ gender }}">
+<div data-role="page">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>ADAD</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <div data-role="collapsibleset">
+            <div class="tab" data-role="collapsible" data-collapsed="false">
+                <h3>First Time</h3>
+                <div class="subtitle">
+                    <b>Biological Indices</b>
+                </div>
+                <div class="subcontent3">
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="abeta40">Abeta(40)</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="abeta40" id="abeta40" value="6990">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="abeta42">Abeta(42)</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="abeta42" id="abeta42" value="987">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="tau">TAU</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="tau" id="tau" value="239.7">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="apoe">APOE</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="apoe" id="apoe" value="1">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="subtitle">
+                    <b>Neuropsychological Assessment</b>
+                </div>
+                <div class="subcontent3">
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="fdg">FDG</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="fdg" id="fdg" value="5.45">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="mmse">MMSE</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="mmse" id="mmse" value="20">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="cdrsb">CDRSB</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="cdrsb" id="cdrsb" value="4.5">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="ravlt">RAVLT</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="ravlt" id="ravlt" value="4">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="faq">FAQ</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="faq" id="faq" value="10">
+                        </div>
+                        <div class="ui-block-c">
+                        </div>
+                        <div class="ui-block-d">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" data-role="collapsible">
+                <h3>Second Time</h3>
+                <div class="subtitle">
+                    <b>Biological Indices</b>
+                </div>
+                <div class="subcontent3">
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="abeta40">Abeta(40)</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="abeta40" id="abeta40" value="6990">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="abeta42">Abeta(42)</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="abeta42" id="abeta42" value="987">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="tau">TAU</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="tau" id="tau" value="239.7">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="apoe">APOE</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="apoe" id="apoe" value="1">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="subtitle">
+                    <b>Neuropsychological Assessment</b>
+                </div>
+                <div class="subcontent3">
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="fdg">FDG</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="fdg" id="fdg" value="5.45">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="mmse">MMSE</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="mmse" id="mmse" value="20">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="cdrsb">CDRSB</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="cdrsb" id="cdrsb" value="4.5">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="ravlt">RAVLT</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="ravlt" id="ravlt" value="4">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="faq">FAQ</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="faq" id="faq" value="10">
+                        </div>
+                        <div class="ui-block-c">
+                        </div>
+                        <div class="ui-block-d">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab" data-role="collapsible">
+                <h3>Third Time</h3>
+                <div class="subtitle">
+                    <b>Biological Indices</b>
+                </div>
+                <div class="subcontent3">
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="abeta40">Abeta(40)</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="abeta40" id="abeta40" value="6990">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="abeta42">Abeta(42)</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="abeta42" id="abeta42" value="987">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="tau">TAU</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="tau" id="tau" value="239.7">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="apoe">APOE</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="apoe" id="apoe" value="1">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="subtitle">
+                    <b>Neuropsychological Assessment</b>
+                </div>
+                <div class="subcontent3">
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="fdg">FDG</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="fdg" id="fdg" value="5.45">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="mmse">MMSE</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="mmse" id="mmse" value="20">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="cdrsb">CDRSB</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="cdrsb" id="cdrsb" value="4.5">
+                        </div>
+                        <div class="ui-block-c">
+                            <label for="ravlt">RAVLT</label>
+                        </div>
+                        <div class="ui-block-d">
+                            <input type="text" class="ui-mini scale" name="ravlt" id="ravlt" value="4">
+                        </div>
+                    </div>
+                    <div class="ui-grid-c">
+                        <div class="ui-block-a">
+                            <label for="faq">FAQ</label>
+                        </div>
+                        <div class="ui-block-b">
+                            <input type="text" class="ui-mini scale" name="faq" id="faq" value="10">
+                        </div>
+                        <div class="ui-block-c">
+                        </div>
+                        <div class="ui-block-d">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-container">
+            <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="reset()">Reset</a>
+            <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="diagnosis()">Diagnosis</a>
+        </div>
+    </div>
+    <div data-role="popup" id="emptyBio" class="ui-content" data-overlay-theme="b">
+        <a href="#" data-rel="back"
+           class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+        <p>Alert: Lacking Scale Indices.</p>
+    </div>
+    <div data-role="popup" id="resultPopup" data-overlay-theme="b">
+        <p id="result"></p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about3" data-rel="popup" data-position-to="window">About</a>
+            <a class="footerContent" href="#contact3" data-rel="popup" data-position-to="window">Contact</a>
+        </h1>
+        <div data-role="popup" id="about3" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>The <b>A</b>lzheimer's <b>D</b>isease <b>A</b>ssessment and <b>D</b>iagnosis
+                (<b>ADAD</b>) toolset provides cognitive screening services and auxiliary diagnosis
+                of AD.</p>
+        </div>
+        <div data-role="popup" id="contact3" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Address: 100 Noname Street, Germany.</p>
+            <p>Email: johndoe@gmail.com</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

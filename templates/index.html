@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <script src="/static/js/index.js"></script>
+</head>
+<body>
+<div data-role="page" id="page_index">
+    <div data-role="header" data-position="fixed">
+        <h1>ADAD</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <div class="ui-field-not-contain">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <div class="vspace"></div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <div class="vspace"></div>
+        </div>
+        <div class="btn-container">
+            <div class="vspace"></div>
+            <input type="submit" data-inline="true" value="Sign Up" onclick="signup()">
+            <input type="submit" data-inline="true" value="Sign In" onclick="signin()">
+        </div>
+        <div class="alert ui-corner-all ui-overlay-shadow" id="nopass">
+            <p>Incorrect username or password.</p>
+            <p>Please check your credential or you can press "Sign Up" to register a new user.</p>
+        </div>
+        <div class="alert ui-corner-all ui-overlay-shadow" id="duplicate">
+            <p>Username already exists.</p>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about" data-rel="popup" data-position-to="window">About</a>
+            <a class="footerContent" href="#contact" data-rel="popup" data-position-to="window">Contact</a>
+        </h1>
+        <div data-role="popup" id="about" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>The <b>A</b>lzheimer's <b>D</b>isease <b>A</b>ssessment and <b>D</b>iagnosis
+                (<b>ADAD</b>) toolset provides cognitive screening services and auxiliary diagnosis
+                of AD.</p>
+        </div>
+        <div data-role="popup" id="contact" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Address: 100 Noname Street, Germany.</p>
+            <p>Email: johndoe@gmail.com</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

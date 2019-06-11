@@ -1,0 +1,39 @@
+audio {
+    width: 100%;
+    margin: 1em 0;
+}
+
+.ui-icon-recording:after {
+    background-image: url("../images/moca/recording.png");
+}
+
+.audio-btn {
+    margin: 1em 0 !important;
+}
+
+#workingArea {
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+}
+
+#puff_svg {
+    transform: scale(1.8);
+}
+
+.working_svg {
+    display: none;
+}
+
+#timer {
+    width: 100%;
+    text-align: center;
+}
+
+.sec{
+    font-size: 5em;
+}
+
+.unit{
+    font-size: 3em;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/menu.css">
+    <script src="/static/js/menu.js"></script>
+</head>
+<body>
+<div data-role="page" id="pageone">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>ADAD</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="#page_bca" data-role="button" class="ui-corner-all" data-transition="slide">Brief Cognitive
+            Assessment</a>
+        <a href="#page_ai" data-role="button" class="ui-corner-all" data-transition="slide">AI-based AD Diagnosis</a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about1" data-rel="popup" data-position-to="window">About</a>
+            <a class="footerContent" href="#contact1" data-rel="popup" data-position-to="window">Contact</a>
+        </h1>
+        <div data-role="popup" id="about1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>The <b>A</b>lzheimer's <b>D</b>isease <b>A</b>ssessment and <b>D</b>iagnosis
+                (<b>ADAD</b>) toolset provides cognitive screening services and auxiliary diagnosis
+                of AD.</p>
+        </div>
+        <div data-role="popup" id="contact1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Address: 100 Noname Street, Germany.</p>
+            <p>Email: johndoe@gmail.com</p>
+        </div>
+    </div>
+</div>
+<div data-role="page" id="page_bca">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>Assessment</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a id="jumpMoCA" href="#" data-role="button" data-ajax="false" class="ui-corner-all">MoCA</a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about2" data-rel="popup" data-position-to="window">About</a>
+            <a class="footerContent" href="#contact2" data-rel="popup" data-position-to="window">Contact</a>
+        </h1>
+        <div data-role="popup" id="about2" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>The <b>A</b>lzheimer's <b>D</b>isease <b>A</b>ssessment and <b>D</b>iagnosis
+                (<b>ADAD</b>) toolset provides cognitive screening services and auxiliary diagnosis
+                of AD.</p>
+        </div>
+        <div data-role="popup" id="contact2" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Address: 100 Noname Street, Germany.</p>
+            <p>Email: johndoe@gmail.com</p>
+        </div>
+    </div>
+</div>
+<div data-role="page" id="page_ai">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>Diagnosis</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="/mri/" data-role="button" data-ajax="false" class="jump ui-corner-all">Based on MRI Scans</a>
+        <a href="/report/" data-role="button" data-ajax="false" class="jump ui-corner-all">Based on MRI Report</a>
+        <a href="/indice/" data-role="button" data-ajax="false" class="jump ui-corner-all">Based on Scales</a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about3" data-rel="popup" data-position-to="window">About</a>
+            <a class="footerContent" href="#contact3" data-rel="popup" data-position-to="window">Contact</a>
+        </h1>
+        <div data-role="popup" id="about3" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>The <b>A</b>lzheimer's <b>D</b>isease <b>A</b>ssessment and <b>D</b>iagnosis
+                (<b>ADAD</b>) toolset provides cognitive screening services and auxiliary diagnosis
+                of AD.</p>
+        </div>
+        <div data-role="popup" id="contact3" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>Address: 100 Noname Street, Germany.</p>
+            <p>Email: johndoe@gmail.com</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

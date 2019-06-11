@@ -1,0 +1,53 @@
+.footerContent {
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.ui-block-a {
+    width: 30% !important;
+    line-height: 1.9;
+}
+
+.ui-block-a label {
+    margin: 0;
+}
+
+.ui-block-b {
+    width: 70% !important;
+}
+
+.ui-block-b div, .ui-block-b fieldset {
+    margin: 0;
+}
+
+.ui-grid-a {
+    margin: .5em 0;
+}
+
+.ui-radio label {
+    padding: .5em 1em;
+}
+
+.ui-block-b .ui-flipswitch{
+    float: right;
+}
+
+textarea{
+    margin: 0 !important;
+}
+
+hr{
+    margin-top: 1em;
+    border-color: #dddddd;
+    color: #dddddd;
+    background-color: #dddddd;
+}
+
+.btn-container{
+    width: 100%;
+    text-align: center;
+}
+
+#toPop{
+    display: none;
+}

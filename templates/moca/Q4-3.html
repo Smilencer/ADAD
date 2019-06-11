@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet"
+          href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="/static/css/sound.css">
+    <script src="/static/js/tap.js"></script>
+    <script>
+        playList = ["f", "b", "a", "c", "m", "n", "a", "a", "j", "k", "l", "b", "a", "f", "a", "k", "d", "e", "a", "a", "a", "j", "a", "m", "o", "f", "a", "a", "b"];
+    </script>
+</head>
+<body>
+<div data-role="page" id="main">
+    <div data-role="panel" id="myPanel">
+        <p>Click '<b>Play Audio</b>' to listen a list of letters. Tap the '<b>Tap Here</b>' button at each letter
+            <b>A</b>.</p>
+    </div>
+    <div data-role="header" data-position="fixed">
+        <h1>Question 4-3</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
+        <a href="#myPanel">Click here for the instruction.</a>
+        <button onclick="playAudio()" id="play" class="audio-btn ui-btn ui-icon-audio ui-btn-icon-left ui-corner-all">
+            Play Audio
+        </button>
+        <button onclick="tapA()" id="tap" disabled="true"
+                class="audio-btn ui-btn ui-corner-all ui-shadow-icon ui-btn-b">
+            Tap Here
+        </button>
+        <div id="workingArea">
+            <img src="/static/images/moca/audio.svg" class="working_svg" id="audio_svg">
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed" style="text-align:center;">
+        <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q4-3')"
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
+            Question</a>
+    </div>
+</div>
+</body>
+</html>

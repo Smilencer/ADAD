@@ -1,0 +1,35 @@
+.footerContent {
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+.subcontent {
+    width: 100%;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.subcontent label.ui-btn {
+    font-weight: 400;
+}
+
+textarea {
+    margin: 0 !important;
+}
+
+hr {
+    margin-top: 1em;
+    border-color: #dddddd;
+    color: #dddddd;
+    background-color: #dddddd;
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+}
+
+#toPop{
+    display: none;
+}
