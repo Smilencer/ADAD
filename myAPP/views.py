@@ -250,7 +250,10 @@ def mri(request):
         try:
             userObj = login_info.objects.get(userID=userID)
             patientObj = patient_info.objects.get(user=userObj)
-            feedback = {"userID": userID, "age": patientObj.age,
+            birthday = patientObj.birthday
+            today = date.today()
+            age = today.year - birthday.year
+            feedback = {"userID": userID, "age": age,
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
@@ -264,7 +267,10 @@ def report(request):
         try:
             userObj = login_info.objects.get(userID=userID)
             patientObj = patient_info.objects.get(user=userObj)
-            feedback = {"userID": userID, "age": patientObj.age,
+            birthday = patientObj.birthday
+            today = date.today()
+            age = today.year - birthday.year
+            feedback = {"userID": userID, "age": age,
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
@@ -278,7 +284,10 @@ def indice(request):
         try:
             userObj = login_info.objects.get(userID=userID)
             patientObj = patient_info.objects.get(user=userObj)
-            feedback = {"userID": userID, "age": patientObj.age,
+            birthday = patientObj.birthday
+            today = date.today()
+            age = today.year - birthday.year
+            feedback = {"userID": userID, "age": age,
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
@@ -303,26 +312,20 @@ def help_diagnosis_AD_imgs(request):
         img3_str = request.POST.get("img3")
         if img1_str != '':
             img1_base64 = base64.b64decode(img1_str)
-            # print(img1_base64)
             img_fileroad = 'static\\ad_imgs'
             print(img_fileroad)
             file = open(img_fileroad + '\\img1.jpg', 'wb')
             file.write(img1_base64)
             file.close()
-            print('img1')
         if img2_str != '':
             img2_base64 = base64.b64decode(img2_str)
-            # print(img1_base64)
             img_fileroad = 'static\\ad_imgs'
-            # print(img_fileroad)
             file = open(img_fileroad + '\\img2.jpg', 'wb')
             file.write(img2_base64)
             file.close()
         if img3_str != '':
             img3_base64 = base64.b64decode(img3_str)
-            # print(img1_base64)
             img_fileroad = 'static\\ad_imgs'
-            # print(img_fileroad)
             file = open(img_fileroad + '\\img3.jpg', 'wb')
             file.write(img3_base64)
             file.close()
