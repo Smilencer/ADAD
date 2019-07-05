@@ -27,8 +27,10 @@ urlpatterns = [
     path(r'mri/', views.mri),
     path(r'report/', views.report),
     path(r'indice/', views.indice),
+    path(r'indice2/', views.indice2),
     path(r'help_diagnosis_AD_imgs/', views.help_diagnosis_AD_imgs),
     path(r'help_diagnosis_AD_text/', views.help_diagnosis_AD_text),
     path(r'help_diagnosis_AD_index/', views.help_diagnosis_AD_index),
+    path(r'help_predict_AD_index/', views.help_predict_AD_index),
     path(r'moca/', views.moca),
 ]

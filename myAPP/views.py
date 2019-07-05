@@ -294,6 +294,23 @@ def indice(request):
     return render(request, "indice.html", feedback)
 
 
+def indice2(request):
+    feedback = None
+    if request.method == "GET":
+        userID = request.GET.get("userID", None)
+        try:
+            userObj = login_info.objects.get(userID=userID)
+            patientObj = patient_info.objects.get(user=userObj)
+            birthday = patientObj.birthday
+            today = date.today()
+            age = today.year - birthday.year
+            feedback = {"userID": userID, "age": age,
+                        "gender": patientObj.gender}
+        except:
+            feedback = {"userID": userID}
+    return render(request, "indice2.html", feedback)
+
+
 def help_diagnosis_AD_imgs(request):
     result = 'error'
     if request.method == "POST":
@@ -388,6 +405,17 @@ def help_diagnosis_AD_index(request):
         print(test)
         from core.ad_model.index.example import diagnosis_AD_index
         result = diagnosis_AD_index(test)
+    return JsonResponse(result, safe=False)
+
+
+def help_predict_AD_index(request):
+    result = 'error'
+    if request.method == "POST":
+        data = json.loads(request.POST.get("dataJSON"))
+        import pandas as pd
+        DataTest = pd.DataFrame(data)
+        from core.ad_model.index2.predict import predict_AD_index
+        result = predict_AD_index(DataTest)
     return JsonResponse(result, safe=False)
 
 
