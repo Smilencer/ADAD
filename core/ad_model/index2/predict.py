@@ -3,8 +3,8 @@ import numpy as np
 import pandas as pd
 from sklearn import metrics
 import statsmodels.formula.api as sm
-from core.ad_model.index2.pyebm.core_utilities import patient_staging
-from core.ad_model.index2.pyebm.mixture_model.gaussian_mixture_model import calculate_prob_mm
+from core.ad_model.index2.core_utilities import patient_staging
+from core.ad_model.index2.gaussian_mixture_model import calculate_prob_mm
 
 
 def predict_AD_index(DataTest):
@@ -132,3 +132,4 @@ def predict_AD_index(DataTest):
         return "AD"
     else:
         return "正常"
+

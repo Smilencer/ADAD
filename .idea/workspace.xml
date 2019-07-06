@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/core/ad_model/index2/predict.py" line="6" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ADAD/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADAD/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ad_model/index2/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/data_likelihood.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/generalized_mallows.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/core_utilities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/debm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/ebm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/prepare_inputs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/prepare_outputs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/visualize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/do_classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/gaussian_mixture_model.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,64 +51,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/indice2.js">
+        <entry file="file://$PROJECT_DIR$/core/ad_model/index2/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+            <state relative-caret-position="120">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myAPP/views.py">
+        <entry file="file://$PROJECT_DIR$/core/ad_model/imgs/runmodel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="417" selection-start-line="417" selection-end-line="417" />
+            <state>
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#24#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/ad_model/index/example.py">
+        <entry file="file://$PROJECT_DIR$/core/ad_model/imgs/vggnet-16-nn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="90">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#25#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/ad_model/index2/predict.py">
+        <entry file="file://$PROJECT_DIR$/core/ad_model/index2/core_utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="996">
-              <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="557">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/indice2.html">
+        <entry file="file://$PROJECT_DIR$/core/ad_model/index2/visualize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ADAD/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+            <state relative-caret-position="134">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -135,6 +136,13 @@
       <find>sex</find>
       <find>Data_7</find>
       <find>subtract</find>
+      <find>print</find>
+      <find>multiprocessing</find>
+      <find>patient_staging</find>
+      <find>visualize</find>
+      <find>\</find>
+      <find>vis</find>
+      <find>show_outputs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,17 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/moca/8.3/Q4-4.html" />
-        <option value="$PROJECT_DIR$/templates/moca/8.3/Q5-1.html" />
-        <option value="$PROJECT_DIR$/templates/moca/8.3/Q5-2.html" />
-        <option value="$PROJECT_DIR$/templates/moca/8.3/Q5-3.html" />
-        <option value="$PROJECT_DIR$/templates/moca/8.3/Q6-1.html" />
-        <option value="$PROJECT_DIR$/templates/moca/8.3/Q7-1.html" />
-        <option value="$PROJECT_DIR$/static/css/canvas.css" />
-        <option value="$PROJECT_DIR$/static/css/abstraction.css" />
-        <option value="$PROJECT_DIR$/templates/moca/Q1-1.html" />
-        <option value="$PROJECT_DIR$/templates/moca/Q1-2.html" />
-        <option value="$PROJECT_DIR$/static/js/canvas.js" />
         <option value="$PROJECT_DIR$/templates/moca/Q1-3.html" />
         <option value="$PROJECT_DIR$/templates/moca/Q2-1.html" />
         <option value="$PROJECT_DIR$/templates/moca/Q2-2.html" />
@@ -184,16 +181,27 @@
         <option value="$PROJECT_DIR$/core/ad_model/index/example.py" />
         <option value="$PROJECT_DIR$/templates/menu.html" />
         <option value="$PROJECT_DIR$/templates/indice2.html" />
-        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/ebm.py" />
-        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/debm.py" />
-        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/core_utilities.py" />
-        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/do_classification.py" />
-        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/data_likelihood.py" />
-        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/generalized_mallows.py" />
         <option value="$PROJECT_DIR$/ADAD/urls.py" />
         <option value="$PROJECT_DIR$/myAPP/views.py" />
         <option value="$PROJECT_DIR$/static/js/indice2.js" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/visualize.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/test.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/debm.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/ebm.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/do_classification.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/data_likelihood.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/generalized_mallows.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/pyebm/core_utilities.py" />
         <option value="$PROJECT_DIR$/core/ad_model/index2/predict.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/prepare_outputs.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/prepare_inputs.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/gaussian_mixture_model.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/ebm.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/do_classification.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/debm.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/data_likelihood.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/visualize.py" />
+        <option value="$PROJECT_DIR$/core/ad_model/index2/core_utilities.py" />
       </list>
     </option>
   </component>
@@ -238,6 +246,13 @@
               <item name="ADAD" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="ad_model" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADAD" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="ad_model" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,13 +261,6 @@
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="ad_model" type="462c0819:PsiDirectoryNode" />
               <item name="index2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ADAD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ADAD" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="ad_model" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ADAD" type="b2602c69:ProjectViewProjectNode" />
@@ -297,20 +305,28 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="ADAD" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="ADAD" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Django\ADAD\templates\moca" />
-      <recent name="D:\Django\ADAD\static\images\moca" />
-      <recent name="D:\Django\ADAD\static\images\moca\8.1" />
-      <recent name="D:\Django\ADAD\templates\moca\8.1" />
-      <recent name="D:\Django\ADAD\static\images\moca\8.2" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program\ADAD\core\ad_model\index2" />
       <recent name="D:\Program\ADAD" />
       <recent name="D:\Program\ADAD\core" />
       <recent name="D:\Program\ADAD\static\js" />
       <recent name="D:\Program\ADAD\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Program\ADAD\core\ad_model\index2" />
+      <recent name="D:\Django\ADAD\templates\moca" />
+      <recent name="D:\Django\ADAD\static\images\moca" />
+      <recent name="D:\Django\ADAD\static\images\moca\8.1" />
+      <recent name="D:\Django\ADAD\templates\moca\8.1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,11 +444,14 @@
       <workItem from="1561516004348" duration="10000" />
       <workItem from="1561516027822" duration="95000" />
       <workItem from="1562328034448" duration="11995000" />
+      <workItem from="1562351289599" duration="1165000" />
+      <workItem from="1562358334021" duration="79000" />
+      <workItem from="1562381796165" duration="13228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242503000" />
+    <option name="totallyTimeSpent" value="256975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,12 +466,12 @@
     <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988372" visible="true" weight="0.23014587" />
-      <window_info id="Structure" order="1" sideWeight="0.50116277" side_tool="true" weight="0.16732909" />
-      <window_info id="Favorites" order="2" sideWeight="0.50116277" side_tool="true" weight="0.16732909" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763927" visible="true" weight="0.24230146" />
+      <window_info id="Structure" order="1" sideWeight="0.5023607" side_tool="true" weight="0.24230146" />
+      <window_info id="Favorites" order="2" sideWeight="0.5023607" side_tool="true" weight="0.24230146" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299293" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" weight="0.46975648" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918962" weight="0.16810684" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,9 +479,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008104" side_tool="true" weight="0.31475666" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008104" side_tool="true" weight="0.31435257" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.422292" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.16146646" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.16103692" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.32967034" />
       <window_info active="true" anchor="bottom" id="File Transfer" order="14" visible="true" weight="0.40023473" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -591,25 +610,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/report.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/sound.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="853">
-          <caret line="68" column="35" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="68" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/symptom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/words.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -659,22 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ADAD/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myAPP/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myAPP/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/myAPP/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myAPP/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/models.py" />
@@ -688,26 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myAPP/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADAD/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="105" column="17" lean-forward="true" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -715,103 +680,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pyebm/ebm.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyebm/ebm.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/ebm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/debm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/core_utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/gaussian_mixture_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#688#725#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/do_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/visualize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#689#726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/prepare_inputs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#689#726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/inputs_outputs/prepare_outputs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#689#726#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/generalized_mallows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/data_likelihood.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pyebm/ebm.py" />
+    <entry file="file://$PROJECT_DIR$/pyebm/ebm.py" />
     <entry file="file://$PROJECT_DIR$/core/ad_model/index2/Data_7.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -821,20 +694,6 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ADAD/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/indice2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -859,26 +718,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myAPP/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="417" selection-start-line="417" selection-end-line="417" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/indice2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="1920">
           <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/indice2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADAD/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ADAD/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="105" column="17" lean-forward="true" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/central_ordering/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/ad_model/index/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
+        <state relative-caret-position="323">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -886,13 +766,171 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ADAD/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/mixture_model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <folding>
+            <element signature="e#84#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAPP/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAPP/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAPP/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/pyebm/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAPP/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myAPP/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12090">
+          <caret line="403" column="21" lean-forward="true" selection-start-line="403" selection-start-column="21" selection-end-line="403" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/prepare_inputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#689#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/generalized_mallows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/ebm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#688#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/do_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#690#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/data_likelihood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#689#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/gaussian_mixture_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#689#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/prepare_outputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/imgs/runmodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/imgs/vggnet-16-nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/ad_model/index2/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="996">
-          <caret line="133" column="19" selection-start-line="133" selection-start-column="19" selection-end-line="133" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/debm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#688#741#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ad_model/index2/core_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>

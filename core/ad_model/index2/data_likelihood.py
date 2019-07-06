@@ -13,14 +13,12 @@
 # *
 # *=========================================================================*/
 
-from __future__ import print_function
-
 import numpy as np
 import copy
 import random
 
-from core.ad_model.index2.pyebm.mixture_model import gaussian_mixture_model as gmm
-from core.ad_model.index2.pyebm.mixture_model import do_classification as dc
+from core.ad_model.index2 import gaussian_mixture_model as gmm
+
 
 def adhoc(Data,params,n_startpoints,n_iterations,mix,DMO):
     

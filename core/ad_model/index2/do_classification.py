@@ -13,11 +13,10 @@
 # *  limitations under the License.
 # *
 # *=========================================================================*/
-from __future__ import print_function
 
 import numpy as np
-from core.ad_model.index2.pyebm.mixture_model.gaussian_mixture_model import calculate_prob_mmN
-from core.ad_model.index2.pyebm.mixture_model.gaussian_mixture_model import calculate_prob_mm
+from core.ad_model.index2.gaussian_mixture_model import calculate_prob_mmN
+from core.ad_model.index2.gaussian_mixture_model import calculate_prob_mm
 
 def Reject(data_AD,data_CN):
         

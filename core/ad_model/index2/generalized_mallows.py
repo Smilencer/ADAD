@@ -13,7 +13,7 @@
 # *
 # *=========================================================================*/
 
-from core.ad_model.index2.pyebm.inputs_outputs import prepare_outputs as po
+from core.ad_model.index2 import prepare_outputs as po
 import numpy 
 import copy
 
