@@ -329,21 +329,21 @@ def help_diagnosis_AD_imgs(request):
         img3_str = request.POST.get("img3")
         if img1_str != '':
             img1_base64 = base64.b64decode(img1_str)
-            img_fileroad = 'static\\ad_imgs'
+            img_fileroad = r'static/ad_imgs'
             print(img_fileroad)
-            file = open(img_fileroad + '\\img1.jpg', 'wb')
+            file = open(img_fileroad + r'/img1.jpg', 'wb')
             file.write(img1_base64)
             file.close()
         if img2_str != '':
             img2_base64 = base64.b64decode(img2_str)
-            img_fileroad = 'static\\ad_imgs'
-            file = open(img_fileroad + '\\img2.jpg', 'wb')
+            img_fileroad = r'static/ad_imgs'
+            file = open(img_fileroad + r'/img2.jpg', 'wb')
             file.write(img2_base64)
             file.close()
         if img3_str != '':
             img3_base64 = base64.b64decode(img3_str)
-            img_fileroad = 'static\\ad_imgs'
-            file = open(img_fileroad + '\\img3.jpg', 'wb')
+            img_fileroad = r'static/ad_imgs'
+            file = open(img_fileroad + r'/img3.jpg', 'wb')
             file.write(img3_base64)
             file.close()
         from core.ad_model.imgs.runmodel import model_predict
