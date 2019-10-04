@@ -12,13 +12,13 @@ function next() {
     $.ajax({
         type: "POST",
         data: $("form").serialize(),
-        url: "/ajax/",
+        url: "../ajax/",
         dataType: "json",
         success: function (result) {
             if (result.userID == null) {
                 $("#toPop").click();
             } else {
-                window.location.href = "/symptom?userID=" + result.userID;
+                window.location.href = "../symptom?userID=" + result.userID;
             }
         }
     });

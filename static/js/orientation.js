@@ -7,7 +7,7 @@ function save(cmd) {
     $.ajax({
         type: "POST",
         data: dataStr,
-        url: "/ajax/",
+        url: "../ajax/",
         dataType: "json",
         success: function (result) {
             $(".myPopup").on("popupafteropen", function (event, ui) {
@@ -15,7 +15,7 @@ function save(cmd) {
                     let sec = parseInt($(".sec:eq(0)").html()) - 1;
                     $(".sec").html(sec);
                     if (sec == 0) {
-                        window.location.href = "/menu/?userID=" + result.userID;
+                        window.location.href = "../menu/?userID=" + result.userID;
                     }
                 }, 1000);
             });

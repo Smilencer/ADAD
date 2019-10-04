@@ -8,7 +8,8 @@ import json
 
 
 def index(request):
-    return render(request, "index.html")
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path)
 
 
 def handleRequest(request):
@@ -217,7 +218,8 @@ def patient(request):
                         "birth_date": patientObj.birthday.strftime("%Y-%m-%d")}
         except:
             feedback = {"userID": userID}
-        return render(request, "patient.html", feedback)
+        path = request.path.lstrip('/').rstrip('/') + ".html"
+        return render(request, path, feedback)
 
 
 def symptom(request):
@@ -236,11 +238,13 @@ def symptom(request):
             feedback.update(symptomMap)
         except:
             feedback = {"userID": userID}
-    return render(request, "symptom.html", feedback)
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path, feedback)
 
 
 def menu(request):
-    return render(request, "menu.html")
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path)
 
 
 def mri(request):
@@ -257,7 +261,8 @@ def mri(request):
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
-    return render(request, "mri.html", feedback)
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path, feedback)
 
 
 def report(request):
@@ -274,7 +279,8 @@ def report(request):
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
-    return render(request, "report.html", feedback)
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path, feedback)
 
 
 def indice(request):
@@ -291,7 +297,8 @@ def indice(request):
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
-    return render(request, "indice.html", feedback)
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path, feedback)
 
 
 def indice2(request):
@@ -308,7 +315,8 @@ def indice2(request):
                         "gender": patientObj.gender}
         except:
             feedback = {"userID": userID}
-    return render(request, "indice2.html", feedback)
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path, feedback)
 
 
 def help_diagnosis_AD_imgs(request):
@@ -439,6 +447,6 @@ def moca(request):
         feedback["mocaID"] = mocaID
         if (qIndex < len(pageList) - 1):
             qNext = pageList[qIndex + 1]
-            hrefNext = "/moca/?v=" + version + "&q=" + qNext + "&mocaID=" + str(mocaID)
+            hrefNext = "../moca/?v=" + version + "&q=" + qNext + "&mocaID=" + str(mocaID)
             feedback["hrefNext"] = hrefNext
-        return render(request, "moca/Q" + question + ".html", feedback)
+        return render(request, "en/moca/Q" + question + ".html", feedback)

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/symptom.css">
+    <script src="/static/js/symptom.js"></script>
+</head>
+<body>
+<div data-role="page" id="pageone">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>ADAD</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <form method="post" action="/ajax/">
+            <input type="hidden" name="userID" id="userID" value="{{ userID }}">
+            <input type="hidden" name="cmd" value="symtom">
+            <div class="subtitle">
+                <b>阿尔茨海默症类型</b>
+            </div>
+            <div class="subcontent">
+                <fieldset data-role="controlgroup" data-type="horizontal" class="ui-mini">
+                    <label for="fad">家族性</label>
+                    <input type="radio" name="adtype" id="fad" value="F"{% if type == "F" %} checked="true"{% endif %}>
+                    <label for="eoad">早发型</label>
+                    <input type="radio" name="adtype" id="eoad" value="E"{% if type == "E" %} checked="true"{% endif %}>
+                    <label for="load">迟发型</label>
+                    <input type="radio" name="adtype" id="load" value="L"{% if type == "L" %} checked="true"{% endif %}>
+                </fieldset>
+            </div>
+            <hr>
+            <div class="subtitle">
+                <b>迹象与症状</b>
+            </div>
+            <div class="subcontent">
+                <fieldset data-role="controlgroup" class="ui-mini">
+                    <label for="lapses">短暂失忆</label>
+                    <input type="checkbox" name="sympton" id="lapses" value="sym1"{% if sym1 %}
+                           checked="true"{% endif %}>
+                    <label for="dd">时间感知障碍和方向感迷失</label>
+                    <input type="checkbox" name="sympton" id="dd" value="sym2"{% if sym2 %} checked="true"{% endif %}>
+                    <label for="anxiety">焦虑</label>
+                    <input type="checkbox" name="sympton" id="anxiety" value="sym3"{% if sym3 %}
+                           checked="true"{% endif %}>
+                    <label for="incontinence">大小便失禁</label>
+                    <input type="checkbox" name="sympton" id="incontinence" value="sym4"{% if sym4 %}
+                           checked="true"{% endif %}>
+                    <label for="stiffness">身体僵硬</label>
+                    <input type="checkbox" name="sympton" id="stiffness" value="sym5"{% if sym5 %}
+                           checked="true"{% endif %}>
+                </fieldset>
+            </div>
+            <hr>
+            <div class="subtitle">
+                <b>其他症状描述</b>
+            </div>
+            <div class="subcontent">
+                <textarea name="description" id="description" class="ui-mini">{{ description }}</textarea>
+            </div>
+            <hr>
+            <div class="btn-container">
+                <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="reset()">重置</a>
+                <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="next()">下一步</a>
+            </div>
+        </form>
+        <div data-role="popup" id="exception" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>注意：您提供的信息不全或有误。</p>
+        </div>
+        <a href="#exception" data-rel="popup" class="ui-btn" data-position-to="window" id="toPop"></a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about1" data-rel="popup" data-position-to="window">关于</a>
+            <a class="footerContent" href="#contact1" data-rel="popup" data-position-to="window">联系我们</a>
+        </h1>
+        <div data-role="popup" id="about1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>本应用是一个阿尔茨海默症评估与诊断（简称<b>ADAD</b>）工具，主要提供的服务有认知筛查和辅助诊断。</p>
+        </div>
+        <div data-role="popup" id="contact1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p><b>地址：</b>上海市松江区人民北路99号</p>
+            <p><b>电邮：</b>chen.qian@dhu.edu.cn</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

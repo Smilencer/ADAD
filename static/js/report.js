@@ -26,7 +26,7 @@ function diagnosis() {
     $.mobile.loading('show');
     $.ajax({
         type: "post",
-        url: "/help_diagnosis_AD_text/",
+        url: "../help_diagnosis_AD_text/",
         datatype: "json",
         data: {
             age: age,

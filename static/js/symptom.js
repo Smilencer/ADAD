@@ -15,13 +15,13 @@ function next() {
     $.ajax({
         type: "POST",
         data: dataStr,
-        url: "/ajax/",
+        url: "../ajax/",
         dataType: "json",
         success: function (result) {
             if (result.userID == null) {
                 $("#toPop").click();
             } else {
-                window.location.href = "/menu?userID=" + result.userID;
+                window.location.href = "../menu?userID=" + result.userID;
             }
         }
     });

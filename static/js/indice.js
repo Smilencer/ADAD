@@ -32,7 +32,7 @@ function diagnosis() {
     $.mobile.loading('show');
     $.ajax({
         type: "post",
-        url: "/help_diagnosis_AD_index/",
+        url: "../help_diagnosis_AD_index/",
         datatype: "json",
         data: {
             age: age,

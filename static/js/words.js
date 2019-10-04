@@ -29,7 +29,7 @@ function startRecording() {
                             mocaID: $("#mocaID").val(),
                             audio: (/.+;\s*base64\s*,\s*(.+)$/i.exec(reader.result) || [])[1]
                         },
-                        url: "/ajax/",
+                        url: "../ajax/",
                         dataType: "json",
                         success: function (result) {
                             if (result.success == "ok") {

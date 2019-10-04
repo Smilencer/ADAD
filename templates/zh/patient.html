@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/patient.css">
+    <script src="/static/js/patient.js"></script>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header" data-position="fixed">
+        <a href="#"
+           class="ui-btn ui-btn-left ui-corner-all ui-shadow ui-icon-arrow-l ui-btn-icon-left ui-btn-icon-notext"
+           data-rel="back" data-transition="slide" data-direction="reverse"></a>
+        <h1>ADAD</h1>
+        <a href="#"
+           class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left ui-btn-icon-notext"></a>
+    </div>
+    <div data-role="main" class="ui-content">
+        <form method="post" action="/ajax/">
+            <input type="hidden" name="userID" value="{{ userID }}">
+            <input type="hidden" name="cmd" value="personal">
+            <div class="ui-grid-a">
+                <div class="ui-block-a" style="width: 90% !important;">
+                    <b>个人信息</b>
+                </div>
+                <div class="ui-block-b" style="width: 10% !important;">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="fullname">姓名</label>
+                </div>
+                <div class="ui-block-b">
+                    <input type="text" name="fullname" id="fullname" class="ui-mini" data-clear-btn="true"
+                           required="required" value="{{ patientObj.name }}">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label>性别</label>
+                </div>
+                <div class="ui-block-b">
+                    <fieldset data-role="controlgroup" data-type="horizontal" class="ui-mini">
+                        <label for="male">男</label>
+                        <input type="radio" name="gender" id="male" value="M" required="required"
+                                {% if patientObj.gender == "M" %} checked="true"{% endif %}>
+                        <label for="female">女</label>
+                        <input type="radio" name="gender" id="female" value="F" required="required"
+                                {% if patientObj.gender == "F" %} checked="true"{% endif %}>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="birthday">生日</label>
+                </div>
+                <div class="ui-block-b">
+                    <input type="date" name="birthday" id="birthday" class="ui-mini" required="required"
+                           value="{{ birth_date }}" onchange="calculateAge(this)">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="fullname">年龄</label>
+                </div>
+                <div class="ui-block-b">
+                    <input readonly="readonly" type="number" name="age" id="age" class="ui-mini" value="">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label>婚姻状况</label>
+                </div>
+                <div class="ui-block-b">
+                    <fieldset data-role="controlgroup" data-type="horizontal" class="ui-mini">
+                        <label for="single">未婚</label>
+                        <input type="radio" name="marriage" id="single" value="false" required="required"
+                                {% if not patientObj.marriage %} checked="true"{% endif %}>
+                        <label for="married">已婚</label>
+                        <input type="radio" name="marriage" id="married" value="true" required="required"
+                                {% if patientObj.marriage %} checked="true"{% endif %}>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="phone">电话</label>
+                </div>
+                <div class="ui-block-b">
+                    <input type="tel" name="phone" id="phone" pattern="[0-9]|\-*" class="ui-mini" data-clear-btn="true"
+                           required="required" value="{{ patientObj.phone }}">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label>家族病史</label>
+                </div>
+                <div class="ui-block-b" id="zh-history">
+                    <input type="checkbox" data-role="flipswitch" name="history" id="history" class="ui-mini"
+                           data-on-text="Yes" data-off-text="No" required="required"{% if patientObj.history %}
+                           checked="true"{% endif %}>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="address">地址</label>
+                </div>
+                <div class="ui-block-b">
+                    <textarea name="address" id="address" class="ui-mini"
+                              required="required">{{ patientObj.address }}</textarea>
+                </div>
+            </div>
+            <hr>
+            <div class="ui-grid-a">
+                <div class="ui-block-a" style="width: 90% !important;">
+                    <b>紧急联系人</b>
+                </div>
+                <div class="ui-block-b" style="width: 10% !important;">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="ename">姓名</label>
+                </div>
+                <div class="ui-block-b">
+                    <input type="text" name="ename" id="ename" class="ui-mini" data-clear-btn="true"
+                           required="required" value="{{ patientObj.emergency_name }}">
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <label for="ephone">电话</label>
+                </div>
+                <div class="ui-block-b">
+                    <input type="tel" name="ephone" id="ephone" pattern="[0-9]|\-*" class="ui-mini"
+                           data-clear-btn="true" required="required" value="{{ patientObj.emergency_phone }}">
+                </div>
+            </div>
+            <hr>
+            <div class="btn-container">
+                <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="reset()">重置</a>
+                <a href="javascript:void(0)" data-role="button" data-inline="true" onclick="next()">下一步</a>
+            </div>
+        </form>
+        <div data-role="popup" id="exception" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>注意：您提供的信息不全或有误。</p>
+        </div>
+        <a href="#exception" data-rel="popup" class="ui-btn" data-position-to="window" id="toPop"></a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about" data-rel="popup" data-position-to="window">关于</a>
+            <a class="footerContent" href="#contact" data-rel="popup" data-position-to="window">联系我们</a>
+        </h1>
+        <div data-role="popup" id="about" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>本应用是一个阿尔茨海默症评估与诊断（简称<b>ADAD</b>）工具，主要提供的服务有认知筛查和辅助诊断。</p>
+        </div>
+        <div data-role="popup" id="contact" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p><b>地址：</b>上海市松江区人民北路99号</p>
+            <p><b>电邮：</b>chen.qian@dhu.edu.cn</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

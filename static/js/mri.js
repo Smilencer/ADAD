@@ -40,7 +40,6 @@ function diagnosis() {
     let img2 = $("#img-sagittal").attr("src");
     let img3 = $("#img-coronal").attr("src");
     if (checkEmptyImg(img1) && checkEmptyImg(img2) && checkEmptyImg(img3)) {
-        $.mobile.loading('show');
         let reg = /base64,(\S*)/;
         let img1_64 = img1.match(reg)[1];
         let img2_64 = img2.match(reg)[1];
@@ -53,12 +52,13 @@ function diagnosis() {
             }
             dataset[$(ipt).attr("name")] = $(ipt).val();
         }
+        $.mobile.loading('show');
         let struct_data = [];
         struct_data.push(dataset);
         let data_result = JSON.stringify(struct_data);
         $.ajax({
             type: "post",
-            url: "/help_diagnosis_AD_imgs/",
+            url: "../help_diagnosis_AD_imgs/",
             datatype: "json",
             data: {
                 age: age,

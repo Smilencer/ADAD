@@ -3,7 +3,7 @@ function save(cmd) {
     $.ajax({
         type: "POST",
         data: dataStr,
-        url: "/ajax/",
+        url: "../ajax/",
         dataType: "json",
         success: function (result) {
             if (result.success == "ok") {

@@ -32,6 +32,10 @@
     float: right;
 }
 
+#zh-history .ui-flipswitch{
+    float: left; !important;
+}
+
 textarea{
     margin: 0 !important;
 }

@@ -14,6 +14,12 @@ function checkEmptyIndice(indice) {
 }
 
 function diagnosis() {
+    let iptArray = $(".scale").toArray();
+    for (let ipt of iptArray) {
+        if (!checkEmptyIndice($(ipt).val())) {
+            return;
+        }
+    }
     let age = $("#age").val();
     let gender = $("#gender").val();
     if (gender == "M") {
@@ -45,7 +51,7 @@ function diagnosis() {
     $.mobile.loading('show');
     $.ajax({
         type: "post",
-        url: "/help_predict_AD_index/",
+        url: "../help_predict_AD_index/",
         datatype: "json",
         data: {
             dataJSON: JSON.stringify(dataset)

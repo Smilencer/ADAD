@@ -2,7 +2,7 @@ function signin() {
     let username = $("#username").val();
     let password = $("#password").val();
     if (username != "" && password != "") {
-        $.post("/ajax/", {
+        $.post("../ajax/", {
             "cmd": "signin",
             "username": username,
             "password": password,
@@ -11,7 +11,7 @@ function signin() {
                 $(".alert").hide();
                 $("#nopass").show();
             } else {
-                window.location.href = "/patient?userID=" + result.userID;
+                window.location.href = "../patient?userID=" + result.userID;
             }
         });
     }
@@ -21,7 +21,7 @@ function signup() {
     let username = $("#username").val();
     let password = $("#password").val();
     if (username != "" && password != "") {
-        $.post("/ajax/", {
+        $.post("../ajax/", {
             "cmd": "signup",
             "username": username,
             "password": password,
@@ -30,7 +30,7 @@ function signup() {
                 $(".alert").hide();
                 $("#duplicate").show();
             } else {
-                window.location.href = "/patient?userID=" + result.userID;
+                window.location.href = "../patient?userID=" + result.userID;
             }
         });
     }
