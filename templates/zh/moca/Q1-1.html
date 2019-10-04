@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/static/js/sketchpad.js"></script>
+    <script src="/static/js/canvas.js"></script>
+    <link rel="stylesheet"
+          href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="/static/css/canvas.css">
+</head>
+<body>
+<div data-role="page" id="main">
+    <div data-role="panel" id="myPanel">
+        <p>Please draw a line going from a number to a letter in ascending order. Start from 'Begin'
+            and draw a line from 1 then to A then to 2 and so on.</p>
+    </div>
+    <div data-role="header" data-position="fixed">
+        <h1>Question 1-1</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
+        <a href="#myPanel">Click here for the instruction.</a>
+        <div id="myCanvas">
+            <canvas class="sketchpad" id="canvas1" style="background-image: url('/static/images/moca/{{ version }}/q1-1.png')">
+            </canvas>
+            <br>
+            <a class="undo ui-btn ui-corner-all ui-shadow ui-btn-inline">Undo</a>
+            <a class="redo ui-btn ui-corner-all ui-shadow ui-btn-inline">Redo</a>
+            <a class="clear ui-btn ui-corner-all ui-shadow ui-btn-inline">Clear</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed" style="text-align:center;">
+        <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q1-1')"
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
+            Question</a>
+    </div>
+</div>
+</body>
+</html>

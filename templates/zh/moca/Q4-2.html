@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet"
+          href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="/static/css/sound.css">
+    <script src="/static/js/sound.js"></script>
+    <script src="/static/js/recorder.mp3.min.js"></script>
+    <script>
+        {% if version == "8.1" %}
+            playList = ["7", "4", "2"];
+        {% endif %}
+        {% if version == "8.2" %}
+            playList = ["2", "4", "7"];
+        {% endif %}
+        {% if version == "8.3" %}
+            playList = ["4", "2", "7"];
+        {% endif %}
+    </script>
+</head>
+<body>
+<div data-role="page" id="main">
+    <div data-role="panel" id="myPanel">
+        <p>Click '<b>Play Audio</b>' to listen a list of numbers. When the audio is through, click '<b>Start
+            Recording</b>', and repeat them in the backward order.</p>
+    </div>
+    <div data-role="header" data-position="fixed">
+        <h1>Question 4-2</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
+        <a href="#myPanel">Click here for the instruction.</a>
+        <button onclick="playAudio()" id="play" class="audio-btn ui-btn ui-icon-audio ui-btn-icon-left ui-corner-all">
+            Play Audio
+        </button>
+        <button onclick="startRecording()" id="start"
+                class="audio-btn ui-btn ui-icon-recording ui-btn-icon-left ui-corner-all">
+            Start Recording
+        </button>
+        <button onclick="stopRecording('Q4-2')" id="stop" class="audio-btn ui-btn ui-icon-stop ui-btn-icon-left ui-corner-all"
+                disabled="true">Stop Recording
+        </button>
+        <div id="workingArea">
+            <img src="/static/images/moca/audio.svg" class="working_svg" id="audio_svg">
+            <img src="/static/images/moca/puff.svg" class="working_svg" id="puff_svg">
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed" style="text-align:center;">
+        <a href="{{ hrefNext }}" data-ajax="false"
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
+            Question</a>
+    </div>
+</div>
+</body>
+</html>

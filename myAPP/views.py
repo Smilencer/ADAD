@@ -449,4 +449,5 @@ def moca(request):
             qNext = pageList[qIndex + 1]
             hrefNext = "../moca/?v=" + version + "&q=" + qNext + "&mocaID=" + str(mocaID)
             feedback["hrefNext"] = hrefNext
-        return render(request, "en/moca/Q" + question + ".html", feedback)
+        lang = request.path.split("/")
+        return render(request, lang[1] + "/moca/Q" + question + ".html", feedback)

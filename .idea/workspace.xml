@@ -2,51 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q3-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q3-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q6-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q7-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ADAD/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADAD/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myAPP/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/patient.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/patient.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/abstraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/abstraction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/animal.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/animal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/indice.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/indice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/indice2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/indice2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/mri.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/mri.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/orientation.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/orientation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/patient.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/patient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/sentence.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sentence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/sound.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/sound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/subtraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/subtraction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/symptom.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/symptom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/tap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/tap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/words.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/words.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/indice.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/indice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/indice2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/indice2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q1-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q1-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q1-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q1-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q1-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q1-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q2-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q2-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q2-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q3-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q3-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q3-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q3-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q4-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q4-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q5-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q5-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q5-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q5-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q5-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q5-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q6-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q6-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/moca/Q7-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q7-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/mri.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/mri.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/patient.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/patient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/symptom.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/symptom.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,19 +111,19 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\workspace\ADAD\templates\zh" />
-      <recent name="D:\Program\ADAD\core\ad_model\index2" />
-      <recent name="D:\Program\ADAD" />
-      <recent name="D:\Program\ADAD\core" />
-      <recent name="D:\Program\ADAD\static\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\workspace\ADAD\templates\en" />
       <recent name="D:\Program\ADAD\core\ad_model\index2" />
       <recent name="D:\Django\ADAD\templates\moca" />
       <recent name="D:\Django\ADAD\static\images\moca" />
       <recent name="D:\Django\ADAD\static\images\moca\8.1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\ADAD\templates\zh" />
+      <recent name="D:\Program\ADAD\core\ad_model\index2" />
+      <recent name="D:\Program\ADAD" />
+      <recent name="D:\Program\ADAD\core" />
+      <recent name="D:\Program\ADAD\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +262,7 @@
       <workItem from="1569718812903" duration="616000" />
       <workItem from="1570070460741" duration="8454000" />
       <workItem from="1570094553560" duration="2244000" />
-      <workItem from="1570155967738" duration="6782000" />
+      <workItem from="1570155967738" duration="7630000" />
     </task>
     <servers />
   </component>
