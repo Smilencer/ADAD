@@ -7,6 +7,10 @@ import base64
 import json
 
 
+def language(request):
+    return render(request, "language.html")
+
+
 def index(request):
     path = request.path.lstrip('/').rstrip('/') + ".html"
     return render(request, path)
@@ -432,8 +436,9 @@ def moca(request):
         feedback = {"hrefNext": "#"}
         pageList = ["1-1", "1-2", "1-3", "2-1", "2-2", "2-3", "3-1", "4-1", "4-2", "4-3", "4-4", "5-1", "5-2", "5-3",
                     "6-1", "3-2", "7-1"]
+        lang = request.path.split("/")
         version = request.GET.get("v", None)
-        feedback["version"] = version
+        feedback["version"] = lang[1] + "/" + version
         question = request.GET.get("q", None)
         qIndex = pageList.index(question)
         if (qIndex == 0):
@@ -449,5 +454,4 @@ def moca(request):
             qNext = pageList[qIndex + 1]
             hrefNext = "../moca/?v=" + version + "&q=" + qNext + "&mocaID=" + str(mocaID)
             feedback["hrefNext"] = hrefNext
-        lang = request.path.split("/")
         return render(request, lang[1] + "/moca/Q" + question + ".html", feedback)

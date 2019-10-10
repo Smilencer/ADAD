@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/static/css/menu.css">
+</head>
+<body>
+<div data-role="page" id="page_index">
+    <div data-role="header" data-position="fixed">
+        <h1>选择语言</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+        <a href="/zh/index/" data-role="button" class="ui-corner-all" data-transition="slide">中文版</a>
+        <a href="/en/index/" data-role="button" class="ui-corner-all" data-transition="slide">English Version</a>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h1>
+            <a class="footerContent" href="#about1" data-rel="popup" data-position-to="window">关于</a>
+            <a class="footerContent" href="#contact1" data-rel="popup" data-position-to="window">联系我们</a>
+        </h1>
+        <div data-role="popup" id="about1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p>本应用是一个阿尔茨海默症评估与诊断（简称<b>ADAD</b>）工具，主要提供的服务有认知筛查和辅助诊断。</p>
+        </div>
+        <div data-role="popup" id="contact1" class="ui-content" data-overlay-theme="b">
+            <a href="#" data-rel="back"
+               class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+            <p><b>地址：</b>上海市松江区人民北路99号</p>
+            <p><b>电邮：</b>chen.qian@dhu.edu.cn</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

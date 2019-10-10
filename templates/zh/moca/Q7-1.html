@@ -12,62 +12,62 @@
 <body>
 <div data-role="page" id="main">
     <div data-role="panel" id="myPanel">
-        <p>Input today's date, the name of this place, and which city it is in.</p>
+        <p>输入今天的日期信息、你在什么地方和所处的城市。</p>
     </div>
     <div data-role="header" data-position="fixed">
-        <h1>Question 7-1</h1>
+        <h1>问题 7-1</h1>
     </div>
     <div data-role="main" class="ui-content">
         <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
-        <a href="#myPanel">Click here for the instruction.</a>
+        <a href="#myPanel" style="text-decoration: none;">点此查看指导</a>
         <div class="ui-grid-a">
-            <div class="ui-block-a">Year</div>
+            <div class="ui-block-a">年份</div>
             <div class="ui-block-b"><input type="number" class="ui-mini ipt-result"></div>
         </div>
         <div class="ui-grid-a">
-            <div class="ui-block-a">Month</div>
+            <div class="ui-block-a">月份</div>
             <div class="ui-block-b"><input type="number" class="ui-mini ipt-result"></div>
         </div>
         <div class="ui-grid-a">
-            <div class="ui-block-a">Date</div>
+            <div class="ui-block-a">日期</div>
             <div class="ui-block-b"><input type="number" class="ui-mini ipt-result"></div>
         </div>
         <div class="ui-grid-a">
-            <div class="ui-block-a">Day</div>
+            <div class="ui-block-a">星期几</div>
             <div class="ui-block-b"><input class="ui-mini ipt-result" list="dayList">
                 <datalist id="dayList">
-                    <option value="Monday" label="1">
-                    <option value="Tuesday" label="2">
-                    <option value="Wednesday" label="3">
-                    <option value="Thursday" label="4">
-                    <option value="Friday" label="5">
-                    <option value="Saturday" label="6">
-                    <option value="Sunday" label="7">
+                    <option value="星期一" label="1">
+                    <option value="星期二" label="2">
+                    <option value="星期三" label="3">
+                    <option value="星期四" label="4">
+                    <option value="星期五" label="5">
+                    <option value="星期六" label="6">
+                    <option value="星期天" label="7">
                 </datalist>
             </div>
         </div>
         <div class="ui-grid-a">
-            <div class="ui-block-a">Place</div>
+            <div class="ui-block-a">地点</div>
             <div class="ui-block-b"><input type="text" class="ui-mini ipt-result"></div>
         </div>
         <div class="ui-grid-a">
-            <div class="ui-block-a">City</div>
+            <div class="ui-block-a">城市</div>
             <div class="ui-block-b"><input type="text" class="ui-mini ipt-result"></div>
         </div>
         <div data-role="popup" id="myPopup1" class="ui-content myPopup" data-position-to="window" data-overlay-theme="b"
              data-dismissible="false">
-            <p>You finish the test!</p>
-            <p>Jump to menu page in <span class="sec">3</span> seconds...</p>
+            <p>恭喜您完成测试！</p>
+            <p><span class="sec">3</span>秒后跳转到菜单页...</p>
         </div>
         <div data-role="popup" id="myPopup2" class="ui-content myPopup" data-position-to="window" data-overlay-theme="b"
              data-dismissible="false">
-            <p>Something wrong!</p>
-            <p>Jump to menu page in <span class="sec">3</span> seconds...</p>
+            <p>糟糕，出现了一些异常，我们正努力修复！</p>
+            <p><span class="sec">3</span>秒后跳转到菜单页...</p>
         </div>
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
         <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q7-1')"
-           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Finish</a>
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">完成</a>
     </div>
 </div>
 </body>

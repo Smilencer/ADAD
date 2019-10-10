@@ -10,14 +10,14 @@
     <script src="/static/js/sound.js"></script>
     <script src="/static/js/recorder.mp3.min.js"></script>
     <script>
-        {% if version == "8.1" %}
-            playList = ["8.1/face", "8.1/velvet", "8.1/church", "8.1/daisy", "8.1/red"];
+        {% if version == "en/8.1" %}
+            playList = ["en/8.1/face", "en/8.1/velvet", "en/8.1/church", "en/8.1/daisy", "en/8.1/red"];
         {% endif %}
         {% if version == "8.2" %}
-            playList = ["8.2/hand", "8.2/nylon", "8.2/park", "8.2/carrot", "8.2/yellow"];
+            playList = ["en/8.2/hand", "en/8.2/nylon", "en/8.2/park", "en/8.2/carrot", "en/8.2/yellow"];
         {% endif %}
         {% if version == "8.3" %}
-            playList = ["8.3/leg", "8.3/cotton", "8.3/school", "8.3/tomato", "8.3/white"];
+            playList = ["en/8.3/leg", "en/8.3/cotton", "en/8.3/school", "en/8.3/tomato", "en/8.3/white"];
         {% endif %}
     </script>
 </head>
@@ -48,8 +48,8 @@
                 disabled="true">Stop Recording
         </button>
         <div id="workingArea">
-            <img src="/static/images/moca/audio.svg" class="working_svg" id="audio_svg">
-            <img src="/static/images/moca/puff.svg" class="working_svg" id="puff_svg">
+            <img src="/static/images/moca/en/audio.svg" class="working_svg" id="audio_svg">
+            <img src="/static/images/moca/en/puff.svg" class="working_svg" id="puff_svg">
         </div>
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">

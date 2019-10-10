@@ -13,28 +13,27 @@
 <body>
 <div data-role="page" id="main">
     <div data-role="panel" id="myPanel">
-        <p>Please draw a line going from a number to a letter in ascending order. Start from 'Begin'
-            and draw a line from 1 then to A then to 2 and so on.</p>
+        <p>我们有时会用“123……”或者汉语的“甲乙丙……”来表示顺序。请您按照从数字到汉字并逐渐升高的顺序画一条连线：从１连向“甲”，再连向２，并一直连下去，到“戊”这里结束</p>
     </div>
     <div data-role="header" data-position="fixed">
-        <h1>Question 1-1</h1>
+        <h1>问题 1-1</h1>
     </div>
     <div data-role="main" class="ui-content">
         <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
-        <a href="#myPanel">Click here for the instruction.</a>
+        <a href="#myPanel" style="text-decoration: none;">点此查看指导</a>
         <div id="myCanvas">
-            <canvas class="sketchpad" id="canvas1" style="background-image: url('/static/images/moca/{{ version }}/q1-1.png')">
+            <canvas class="sketchpad" id="canvas1"
+                    style="background-image: url('/static/images/moca/{{ version }}/q1-1.png')">
             </canvas>
             <br>
-            <a class="undo ui-btn ui-corner-all ui-shadow ui-btn-inline">Undo</a>
-            <a class="redo ui-btn ui-corner-all ui-shadow ui-btn-inline">Redo</a>
-            <a class="clear ui-btn ui-corner-all ui-shadow ui-btn-inline">Clear</a>
+            <a class="undo ui-btn ui-corner-all ui-shadow ui-btn-inline">撤销</a>
+            <a class="redo ui-btn ui-corner-all ui-shadow ui-btn-inline">重做</a>
+            <a class="clear ui-btn ui-corner-all ui-shadow ui-btn-inline">清空</a>
         </div>
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
         <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q1-1')"
-           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
-            Question</a>
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">下一题</a>
     </div>
 </div>
 </body>

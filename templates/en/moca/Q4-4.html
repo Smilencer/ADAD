@@ -12,8 +12,16 @@
 <body>
 <div data-role="page" id="main">
     <div data-role="panel" id="myPanel">
-        <p>Serial 7 subtraction starting at {% if version == "8.1" %}100{% endif %}{% if version == "8.2" %}
-            70{% endif %}{% if version == "8.3" %}60{% endif %}.</p>
+        <p>Serial 7 subtraction starting at
+            {% if version == "en/8.1" %}
+                100
+            {% endif %}
+            {% if version == "en/8.2" %}
+                70
+            {% endif %}
+            {% if version == "en/8.3" %}
+                60
+            {% endif %}.</p>
     </div>
     <div data-role="header" data-position="fixed">
         <h1>Question 4-4</h1>
@@ -22,8 +30,8 @@
         <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
         <a href="#myPanel">Click here for the instruction.</a>
         <div class="ui-grid-a">
-            <div class="ui-block-a"><span class="num">{% if version == "8.1" %}100{% endif %}{% if version == "8.2" %}
-                70{% endif %}{% if version == "8.3" %}60{% endif %}</span> - 7 =&nbsp;&nbsp;
+            <div class="ui-block-a"><span class="num">{% if version == "en/8.1" %}100{% endif %}{% if version == "en/8.2" %}
+                70{% endif %}{% if version == "en/8.3" %}60{% endif %}</span> - 7 =&nbsp;&nbsp;
             </div>
             <div class="ui-block-b"><input type="number" class="ui-mini ipt-result" onchange="setNumber(this.value,1)">
             </div>

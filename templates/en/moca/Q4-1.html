@@ -10,14 +10,14 @@
     <script src="/static/js/sound.js"></script>
     <script src="/static/js/recorder.mp3.min.js"></script>
     <script>
-        {% if version == "8.1" %}
-            playList = ["2", "1", "8", "5", "4"];
+        {% if version == "en/8.1" %}
+            playList = ["en/2", "en/1", "en/8", "en/5", "en/4"];
         {% endif %}
-        {% if version == "8.2" %}
-            playList = ["8", "1", "5", "2", "4"];
+        {% if version == "en/8.2" %}
+            playList = ["en/8", "en/1", "en/5", "en/2", "en/4"];
         {% endif %}
-        {% if version == "8.3" %}
-            playList = ["2", "4", "8", "1", "5"];
+        {% if version == "en/8.3" %}
+            playList = ["en/2", "en/4", "en/8", "en/1", "en/5"];
         {% endif %}
     </script>
 </head>
@@ -44,8 +44,8 @@
                 disabled="true">Stop Recording
         </button>
         <div id="workingArea">
-            <img src="/static/images/moca/audio.svg" class="working_svg" id="audio_svg">
-            <img src="/static/images/moca/puff.svg" class="working_svg" id="puff_svg">
+            <img src="/static/images/moca/en/audio.svg" class="working_svg" id="audio_svg">
+            <img src="/static/images/moca/en/puff.svg" class="working_svg" id="puff_svg">
         </div>
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">

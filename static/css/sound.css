@@ -4,11 +4,11 @@ audio {
 }
 
 .ui-icon-recording:after {
-    background-image: url("../images/moca/recording.png");
+    background-image: url("../images/moca/en/recording.png");
 }
 
 .ui-icon-stop:after {
-    background-image: url("../images/moca/stop.png");
+    background-image: url("../images/moca/en/stop.png");
 }
 
 .audio-btn {

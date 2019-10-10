@@ -12,52 +12,31 @@
 <body>
 <div data-role="page" id="main">
     <div data-role="panel" id="myPanel">
-        <p>Explain what each pair of words has in common. For example, both banana and orange are part of the category
-            'Fruits'.</p>
+        <p>解释每一对词语的相似之处。比方说，“香蕉”和“桔子”都属于水果。</p>
     </div>
     <div data-role="header" data-position="fixed">
-        <h1>Question 6-1</h1>
+        <h1>问题 6-1</h1>
     </div>
     <div data-role="main" class="ui-content">
         <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
-        <a href="#myPanel">Click here for the instruction.</a>
+        <a href="#myPanel" style="text-decoration: none;">点此查看指导</a>
         <div class="ui-grid-a">
-            <div class="ui-block-a">banana</div>
-            <div class="ui-block-b">orange</div>
+            <div class="ui-block-a">香蕉</div>
+            <div class="ui-block-b">桔子</div>
         </div>
         <div class="ui-grid-solo">
-            <div class="ui-block-a"><input type="text" value="They both are fruit." readonly></div>
+            <div class="ui-block-a"><input type="text" value="它们都是水果" readonly></div>
         </div>
         <div class="ui-grid-a">
-            {% if version == "8.1" %}
-                <div class="ui-block-a">train</div>
-                <div class="ui-block-b">bicycle</div>
-            {% endif %}
-            {% if version == "8.2" %}
-                <div class="ui-block-a">bed</div>
-                <div class="ui-block-b">table</div>
-            {% endif %}
-            {% if version == "8.3" %}
-                <div class="ui-block-a">hammer</div>
-                <div class="ui-block-b">screwdriver</div>
-            {% endif %}
+            <div class="ui-block-a">火车</div>
+            <div class="ui-block-b">自行车</div>
         </div>
         <div class="ui-grid-solo">
             <div class="ui-block-a"><input type="text" class="ipt-result"></div>
         </div>
         <div class="ui-grid-a">
-            {% if version == "8.1" %}
-                <div class="ui-block-a">watch</div>
-                <div class="ui-block-b">ruler</div>
-            {% endif %}
-            {% if version == "8.2" %}
-                <div class="ui-block-a">letter</div>
-                <div class="ui-block-b">telephone</div>
-            {% endif %}
-            {% if version == "8.3" %}
-                <div class="ui-block-a">matches</div>
-                <div class="ui-block-b">lamp</div>
-            {% endif %}
+            <div class="ui-block-a">手表</div>
+            <div class="ui-block-b">尺子</div>
         </div>
         <div class="ui-grid-solo">
             <div class="ui-block-a"><input type="text" class="ipt-result"></div>
@@ -65,8 +44,7 @@
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
         <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q6-1')"
-           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
-            Question</a>
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">下一题</a>
     </div>
 </div>
 </body>

@@ -13,14 +13,14 @@
 <body>
 <div data-role="page" id="main">
     <div data-role="panel" id="myPanel">
-        <p>Copy this drawing as accurately as you can.</p>
+        <p>请您照着这幅图在下面的空白处再画一遍，并尽可能精确。</p>
     </div>
     <div data-role="header" data-position="fixed">
-        <h1>Question 1-2</h1>
+        <h1>问题 1-2</h1>
     </div>
     <div data-role="main" class="ui-content">
         <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
-        <a href="#myPanel">Click here for the instruction.</a>
+        <a href="#myPanel" style="text-decoration: none;">点此查看指导</a>
         <div id="photo">
             <img src="/static/images/moca/{{ version }}/q1-2.png" width="200" height="100">
         </div>
@@ -28,15 +28,14 @@
             <canvas class="sketchpad">
             </canvas>
             <br>
-            <a class="undo ui-btn ui-corner-all ui-shadow ui-btn-inline">Undo</a>
-            <a class="redo ui-btn ui-corner-all ui-shadow ui-btn-inline">Redo</a>
-            <a class="clear ui-btn ui-corner-all ui-shadow ui-btn-inline">Clear</a>
+            <a class="undo ui-btn ui-corner-all ui-shadow ui-btn-inline">撤销</a>
+            <a class="redo ui-btn ui-corner-all ui-shadow ui-btn-inline">重做</a>
+            <a class="clear ui-btn ui-corner-all ui-shadow ui-btn-inline">清空</a>
         </div>
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
         <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q1-2')"
-           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
-            Question</a>
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">下一题</a>
     </div>
 </div>
 </body>

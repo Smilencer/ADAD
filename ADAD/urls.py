@@ -19,6 +19,7 @@ from myAPP import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
+    path(r'language/', views.language),
     path(r'en/index/', views.index),
     path(r'zh/index/', views.index),
     path(r'en/ajax/', views.handleRequest),

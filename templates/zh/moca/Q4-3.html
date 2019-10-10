@@ -9,36 +9,34 @@
     <link rel="stylesheet" href="/static/css/sound.css">
     <script src="/static/js/tap.js"></script>
     <script>
-        playList = ["f", "b", "a", "c", "m", "n", "a", "a", "j", "k", "l", "b", "a", "f", "a", "k", "d", "e", "a", "a", "a", "j", "a", "m", "o", "f", "a", "a", "b"];
+        playList = ["zh/5", "zh/2", "zh/1", "zh/3", "zh/9", "zh/4", "zh/1", "zh/1", "zh/8", "zh/0", "zh/6", "zh/2", "zh/1", "zh/5", "zh/1", "zh/9", "zh/4", "zh/5", "zh/1", "zh/1", "zh/1", "zh/4", "zh/1", "zh/9", "zh/0", "zh/5", "zh/1", "zh/1", "zh/2"];
     </script>
 </head>
 <body>
 <div data-role="page" id="main">
     <div data-role="panel" id="myPanel">
-        <p>Click '<b>Play Audio</b>' to listen a list of letters. Tap the '<b>Tap Here</b>' button at each letter
-            <b>A</b>.</p>
+        <p>点击“播放”，仔细听一组数字。每当读到１的时候，您就按一下灰色方块按钮；当读到其他的数字时则不需要动作。</p>
     </div>
     <div data-role="header" data-position="fixed">
-        <h1>Question 4-3</h1>
+        <h1>问题 4-3</h1>
     </div>
     <div data-role="main" class="ui-content">
         <input type="hidden" id="mocaID" name="mocaID" value="{{ mocaID }}">
-        <a href="#myPanel">Click here for the instruction.</a>
+        <a href="#myPanel" style="text-decoration: none;">点此查看指导</a>
         <button onclick="playAudio()" id="play" class="audio-btn ui-btn ui-icon-audio ui-btn-icon-left ui-corner-all">
-            Play Audio
+            播放
         </button>
         <button onclick="tapA()" id="tap" disabled="true"
                 class="audio-btn ui-btn ui-corner-all ui-shadow-icon ui-btn-b">
-            Tap Here
+            按这里
         </button>
         <div id="workingArea">
-            <img src="/static/images/moca/audio.svg" class="working_svg" id="audio_svg">
+            <img src="/static/images/moca/en/audio.svg" class="working_svg" id="audio_svg">
         </div>
     </div>
     <div data-role="footer" data-position="fixed" style="text-align:center;">
         <a href="{{ hrefNext }}" data-ajax="false" onclick="save('Q4-3')"
-           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">Next
-            Question</a>
+           class="next ui-btn ui-corner-all ui-shadow ui-icon-carat-r ui-btn-icon-right">下一题</a>
     </div>
 </div>
 </body>

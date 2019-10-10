@@ -2,26 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q3-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q3-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q6-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/zh/moca/Q7-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ADAD/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADAD/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoCA-PUMCH-常模.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoCA-Test-Chinese_Beijing.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoCA-Test-Chinese_Changsha_2013.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/delay.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/delay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/sound.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/sound.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/words.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/words.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/4.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/4.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/5.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/5.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/7.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/7.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/church.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/church.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/daisy.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/daisy.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/face.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/face.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/q1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/q1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/q1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/q1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/q2-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/q2-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/q2-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/q2-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/q2-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/q2-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/red.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/red.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/tts_1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/tts_1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/tts_2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/tts_2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.1/velvet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.1/velvet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/carrot.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/carrot.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/hand.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/hand.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/nylon.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/nylon.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/park.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/park.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/q1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/q1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/q1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/q1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/q2-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/q2-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/q2-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/q2-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/q2-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/q2-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/tts_1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/tts_1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/tts_2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/tts_2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.2/yellow.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.2/yellow.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/cotton.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/cotton.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/leg.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/leg.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/q1-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/q1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/q1-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/q1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/q2-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/q2-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/q2-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/q2-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/q2-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/q2-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/school.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/school.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/tomato.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/tomato.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/tts_1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/tts_1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/tts_2.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/tts_2.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.3/white.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.3/white.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/8.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/8.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/a.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/a.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/audio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/audio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/b.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/b.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/c.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/c.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/d.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/d.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/e.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/e.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/f.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/f.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/j.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/j.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/k.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/k.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/l.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/l.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/m.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/m.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/n.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/n.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/o.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/o.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/puff.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/puff.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/recording.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/recording.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/moca/stop.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/moca/en/stop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q3-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q3-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q3-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q3-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q4-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q4-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q4-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q5-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q5-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q5-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q5-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q5-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q5-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/en/moca/Q6-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/en/moca/Q6-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q1-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q1-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q1-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q1-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q2-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q2-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q2-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q2-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q3-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q3-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q3-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q3-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q4-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q4-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q4-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q4-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q4-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q5-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q5-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q5-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q5-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q6-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q6-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/moca/Q7-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/moca/Q7-1.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,9 +147,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -86,13 +164,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1R5AbdvoIWc5tlQlr3NXPrUAJwi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="添加" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/zh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ML/DNN" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,18 +193,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\workspace\ADAD\templates\en" />
-      <recent name="D:\Program\ADAD\core\ad_model\index2" />
-      <recent name="D:\Django\ADAD\templates\moca" />
-      <recent name="D:\Django\ADAD\static\images\moca" />
-      <recent name="D:\Django\ADAD\static\images\moca\8.1" />
+      <recent name="G:\workspace\ADAD\static\images\moca\zh\8.1" />
+      <recent name="G:\workspace\ADAD\static\images\moca\zh" />
+      <recent name="G:\workspace\ADAD\static\images\moca\en" />
+      <recent name="G:\workspace\ADAD\static\images\moca" />
+      <recent name="G:\workspace\ADAD\static\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\ADAD\static\images\moca\zh\8.1" />
+      <recent name="G:\workspace\ADAD\static\images\moca\zh" />
       <recent name="G:\workspace\ADAD\templates\zh" />
       <recent name="D:\Program\ADAD\core\ad_model\index2" />
       <recent name="D:\Program\ADAD" />
-      <recent name="D:\Program\ADAD\core" />
-      <recent name="D:\Program\ADAD\static\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -262,7 +343,11 @@
       <workItem from="1569718812903" duration="616000" />
       <workItem from="1570070460741" duration="8454000" />
       <workItem from="1570094553560" duration="2244000" />
-      <workItem from="1570155967738" duration="7630000" />
+      <workItem from="1570155967738" duration="7714000" />
+      <workItem from="1570498841871" duration="8314000" />
+      <workItem from="1570582501452" duration="6673000" />
+      <workItem from="1570671370784" duration="5328000" />
+      <workItem from="1570689743698" duration="4050000" />
     </task>
     <servers />
   </component>
