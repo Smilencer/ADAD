@@ -48,4 +48,8 @@ urlpatterns = [
     path(r'zh/help_predict_AD_index/', views.help_predict_AD_index),
     path(r'en/moca/', views.moca),
     path(r'zh/moca/', views.moca),
+    path(r'en/admin/', views.admin),
+    path(r'zh/admin/', views.admin),
+    path(r'en/doctor/', views.doctor),
+    path(r'zh/doctor/', views.doctor),
 ]

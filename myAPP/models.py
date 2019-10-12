@@ -8,6 +8,12 @@ class login_info(models.Model):
     password = models.CharField(max_length=50)
 
 
+class doctor_info(models.Model):
+    userID = models.UUIDField(primary_key=True, auto_created=True, default=uuid.uuid4, editable=False)
+    username = models.CharField(max_length=50, unique=True)
+    password = models.CharField(max_length=50)
+
+
 class patient_info(models.Model):
     user = models.OneToOneField(to=login_info, related_name='user', on_delete=models.CASCADE)
     name = models.CharField(max_length=50)

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>阿尔茨海默症评估与诊断系统 - 后台管理</title>
+    <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/static/js/animatext.min.js"></script>
+    <script src="/static/js/admin.js"></script>
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <link rel="stylesheet" href="/static/css/animate.min.css">
+    <link rel="shortcut icon" href="/static/images/favicon.ico" />
+	<link rel="bookmark" href="/static/images/favicon.ico" type="image/x-icon"/>
+    <script>
+        var mode = "chars";
+    </script>
+</head>
+<body>
+<div class="pagebody">
+    <div class="login">
+        <h4 class="banner">阿尔茨海默症评估与诊断系统 - 后台管理</h4>
+        <p>
+            <img src="/static/images/login.png" height="40" alt="username">
+            <input class="credential" type="text" placeholder="用户名" id="username" onfocus="inputing()">
+        </p>
+        <p>
+            <img src="/static/images/password.png" height="40" alt="password">
+            <input class="credential" type="password" placeholder="密码" id="password" onfocus="inputing()">
+        </p>
+        <p class="btnMenu">
+            <button onclick="login()"><img src="/static/images/log-in.png" height="25">登陆</button>
+            <button onclick="reset()"><img src="/static/images/reset.png" height="25">重置</button>
+        </p>
+        <p class="lastP">
+            <a href="/en/admin/" class="changeLang">English version</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

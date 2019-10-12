@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/language.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/language.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADAD/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADAD/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myAPP/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myAPP/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myAPP/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myAPP/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.key" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +54,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -76,7 +81,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ML/DNN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/zh" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,7 +89,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -96,18 +101,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workspace\ADAD\static\js" />
+      <recent name="G:\workspace\ADAD\static\css" />
+      <recent name="G:\workspace\ADAD\static\images" />
       <recent name="G:\workspace\ADAD\static\images\moca\zh\8.1" />
       <recent name="G:\workspace\ADAD\static\images\moca\zh" />
-      <recent name="G:\workspace\ADAD\static\images\moca\en" />
-      <recent name="G:\workspace\ADAD\static\images\moca" />
-      <recent name="G:\workspace\ADAD\static\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\ADAD\templates\zh" />
+      <recent name="G:\workspace\ADAD\static\images" />
+      <recent name="G:\workspace\ADAD\templates\en" />
       <recent name="G:\workspace\ADAD\static\images\moca\zh\8.1" />
       <recent name="G:\workspace\ADAD\static\images\moca\zh" />
-      <recent name="G:\workspace\ADAD\templates\zh" />
-      <recent name="D:\Program\ADAD\core\ad_model\index2" />
-      <recent name="D:\Program\ADAD" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -251,7 +256,8 @@
       <workItem from="1570582501452" duration="6673000" />
       <workItem from="1570671370784" duration="5328000" />
       <workItem from="1570689743698" duration="4050000" />
-      <workItem from="1570755557405" duration="113000" />
+      <workItem from="1570755557405" duration="10214000" />
+      <workItem from="1570845156184" duration="11509000" />
     </task>
     <servers />
   </component>

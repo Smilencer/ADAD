@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from myAPP.models import login_info, patient_info, symptom_info, moca_info
+from myAPP.models import login_info, patient_info, symptom_info, moca_info, doctor_info
 import uuid
 from datetime import date
 import base64
@@ -208,6 +208,14 @@ def handleRequest(request):
             mocaObj.question_7_1 = results
             mocaObj.save()
             feedback = {"success": "ok", "userID": mocaObj.user_id}
+        if request.POST.get("cmd", None) == "admin":
+            username = request.POST.get("user", None)
+            password = request.POST.get("pwd", None)
+            try:
+                userObj = doctor_info.objects.get(username=username, password=password)
+                feedback = {"userID": userObj.userID}
+            except:
+                feedback = {"userID": None}
     return JsonResponse(feedback, safe=False)
 
 
@@ -455,3 +463,13 @@ def moca(request):
             hrefNext = "../moca/?v=" + version + "&q=" + qNext + "&mocaID=" + str(mocaID)
             feedback["hrefNext"] = hrefNext
         return render(request, lang[1] + "/moca/Q" + question + ".html", feedback)
+
+
+def admin(request):
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path)
+
+
+def doctor(request):
+    path = request.path.lstrip('/').rstrip('/') + ".html"
+    return render(request, path)
