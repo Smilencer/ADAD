@@ -6,6 +6,7 @@
     <script src="https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/static/js/animatext.min.js"></script>
     <script src="/static/js/doctor.js"></script>
+    <script src="/static/js/sketchpad.js"></script>
     <link rel="stylesheet" href="/static/css/doctor.css">
     <link rel="stylesheet" href="/static/css/animate.min.css">
     <link rel="shortcut icon" href="/static/images/favicon.ico"/>
@@ -29,9 +30,408 @@
             </ul>
         </div>
     </div>
-    <div>
-        <div class="left"></div>
-        <div class="right"></div>
+    <div class="content">
+        <div class="left">
+            <div class="namecard">
+                <div class="avatar"></div>
+                <div class="nameinfo">
+                    <p class="doctorName">王德发</p>
+                    <p class="doctorJob">神经内科</p>
+                </div>
+            </div>
+            <hr>
+            <input type="text" class="patientSearch" value="" placeholder="搜索..."/>
+            <div class="patientList">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td class="name-td">Chen Qian</td>
+                        <td class="gender-td">男</td>
+                        <td class="age-td">32岁</td>
+                    </tr>
+                    <tr>
+                        <td class="name-td">Chen Qian</td>
+                        <td class="gender-td">男</td>
+                        <td class="age-td">32岁</td>
+                    </tr>
+                    <tr>
+                        <td class="name-td">Chen Qian</td>
+                        <td class="gender-td">男</td>
+                        <td class="age-td">32岁</td>
+                    </tr>
+                    <tr>
+                        <td class="name-td">Chen Qian</td>
+                        <td class="gender-td">男</td>
+                        <td class="age-td">32岁</td>
+                    </tr>
+                    <tr>
+                        <td class="name-td">Chen Qian</td>
+                        <td class="gender-td">男</td>
+                        <td class="age-td">32岁</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="right">
+            <div class="menu">
+                <ul class="right-menu">
+                    <li class="menu-selected" onclick="showPad('patient-pad',this)">病人信息</li>
+                    <span>|</span>
+                    <li onclick="showPad('mri-image-pad',this)">MRI图像</li>
+                    <span>|</span>
+                    <li onclick="showPad('mri-report-pad',this)">MRI报告</li>
+                    <span>|</span>
+                    <li onclick="showPad('mri-scale1-pad',this)">量表数据（1）</li>
+                    <span>|</span>
+                    <li onclick="showPad('mri-scale2-pad',this)">量表数据（2）</li>
+                    <span>|</span>
+                    <li onclick="showPad('moca-pad',this)">MoCA</li>
+                </ul>
+            </div>
+            <div class="pad">
+                <div id="patient-pad" class="subpad">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td class="dataObj">姓名</td>
+                            <td>Chen Qian</td>
+                            <td class="dataObj">性别</td>
+                            <td>男</td>
+                            <td class="dataObj">生日</td>
+                            <td>1988/05/12</td>
+                            <td class="dataObj">年龄</td>
+                            <td>32</td>
+                            <td class="dataObj">婚姻状况</td>
+                            <td>未婚</td>
+                        </tr>
+                        <tr>
+                            <td class="dataObj">电话</td>
+                            <td>07438222780</td>
+                            <td class="dataObj">地址</td>
+                            <td colspan="7">2.71 Kilburn Building, The University of Manchester</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td class="dataObj">紧急联系人姓名</td>
+                            <td>No Name</td>
+                            <td class="dataObj">紧急联系人电话</td>
+                            <td>123123123123</td>
+                            <td class="dataObj">是否家族病</td>
+                            <td>是</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td class="dataObj">阿尔茨海默症类型</td>
+                            <td>早发型</td>
+                            <td class="dataObj">迹象与症状</td>
+                            <td>短暂失忆、时间感知障碍和方向感迷失、焦虑、大小便失禁、身体僵硬</td>
+                        </tr>
+                        <tr>
+                            <td class="dataObj">其他症状</td>
+                            <td colspan="3">肥胖</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="mri-image-pad" class="subpad hidden">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="3">颅脑MRI扫描图像</th>
+                        </tr>
+                        <tr>
+                            <td>横断位</td>
+                            <td>矢状位</td>
+                            <td>冠状位</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><img src="/static/ad_imgs/img1.jpg"></td>
+                            <td><img src="/static/ad_imgs/img2.jpg"></td>
+                            <td><img src="/static/ad_imgs/img3.jpg"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="5">生物学标志物</th>
+                        </tr>
+                        <tr>
+                            <td>Abeta(40)</td>
+                            <td>Abeta(42)</td>
+                            <td>TAU</td>
+                            <td>PTAU</td>
+                            <td>APOE</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>6990</td>
+                            <td>987</td>
+                            <td>239.7</td>
+                            <td>22.83</td>
+                            <td>1</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="4">神经心理学评估</th>
+                        </tr>
+                        <tr>
+                            <td>MMSE</td>
+                            <td>CDR</td>
+                            <td>RAVLT</td>
+                            <td>FAQ</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>20</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>10</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <div class="result">
+                        <p>系统辅助诊断结果：<b>轻度认知障碍</b></p>
+                        <p>医生诊断结果：<input type="text" placeholder="轻度认知障碍">
+                            <button>更新</button>
+                        </p>
+                    </div>
+                </div>
+                <div id="mri-report-pad" class="subpad hidden">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>颅脑MRI图像报告</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>中线结构无移位，脑池脑沟增宽，两侧侧脑室扩大，侧脑室前后附近脑白质密度稍减低，两侧放射冠及半卵圆区小低密度灶。</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <div class="result">
+                        <p>系统辅助诊断结果：<b>老年痴呆</b></p>
+                        <p>医生诊断结果：<input type="text" placeholder="老年痴呆">
+                            <button>更新</button>
+                        </p>
+                    </div>
+                </div>
+                <div id="mri-scale1-pad" class="subpad hidden">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="12">生物学标志物</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Abeta(40)</td>
+                            <td colspan="3">Abeta(42)</td>
+                            <td colspan="3">TAU</td>
+                            <td colspan="3">APOE</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>6990</td>
+                            <td>6990</td>
+                            <td>6990</td>
+                            <td>987</td>
+                            <td>987</td>
+                            <td>987</td>
+                            <td>239.7</td>
+                            <td>239.7</td>
+                            <td>239.7</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="15">神经心理学评估</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3">PDG</td>
+                            <td colspan="3">MMSE</td>
+                            <td colspan="3">CDRSB</td>
+                            <td colspan="3">RAVLT</td>
+                            <td colspan="3">FAQ</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>5.45</td>
+                            <td>5.45</td>
+                            <td>5.45</td>
+                            <td>20</td>
+                            <td>20</td>
+                            <td>20</td>
+                            <td>4.5</td>
+                            <td>4.5</td>
+                            <td>4.5</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>4</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <div class="result">
+                        <p>系统辅助诊断结果：<b>轻度认知障碍</b></p>
+                        <p>医生诊断结果：<input type="text" placeholder="轻度认知障碍">
+                            <button>更新</button>
+                        </p>
+                    </div>
+                </div>
+                <div id="mri-scale2-pad" class="subpad hidden">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="12">生物学标志物 (<span>2017年07月21日、2017年07月22日</span>)</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Abeta(40)</td>
+                            <td colspan="2">PTAU</td>
+                            <td colspan="2">TAU</td>
+                            <td colspan="2">ICV</td>
+                            <td colspan="2">Hippocampus</td>
+                            <td colspan="2">Whole Brain</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>319</td>
+                            <td>319</td>
+                            <td>5.36</td>
+                            <td>5.36</td>
+                            <td>6.17</td>
+                            <td>6.17</td>
+                            <td>2321319</td>
+                            <td>2321319</td>
+                            <td>11845.9</td>
+                            <td>11845.9</td>
+                            <td>1634644</td>
+                            <td>1634644</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="4">神经心理学评估 (<span>2017年07月21日、2017年07月22日</span>)</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">ADAS13</td>
+                            <td colspan="2">MMSE</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>59.67</td>
+                            <td>59.67</td>
+                            <td>28</td>
+                            <td>28</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <hr>
+                    <div class="result">
+                        <p>系统辅助诊断结果：<b>轻度认知障碍</b></p>
+                        <p>医生诊断结果：<input type="text" placeholder="轻度认知障碍">
+                            <button>更新</button>
+                        </p>
+                    </div>
+                </div>
+                <div id="moca-pad" class="subpad hidden">
+                    <p>蒙特利尔认知评估8.1版</p>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="4">视空间与执行功能</th>
+                        </tr>
+                        <tr>
+                            <td>交替连线测验</td>
+                            <td>复制立方体</td>
+                            <td>画钟表（11点10分）</td>
+                            <td>得分</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <canvas class="sketchpad" id="canvas1" style="background-image: url('/static/images/moca/zh/8.1/q1-1.png')">
+                                </canvas>
+                            </td>
+                            <td><canvas class="sketchpad" id="canvas2"></canvas></td>
+                            <td><canvas class="sketchpad" id="canvas2"></canvas></td>
+                            <td><input class="score" type="text">/5</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="4">命名</th>
+                        </tr>
+                        <tr>
+                            <td><img src="/static/images/moca/zh/8.1/q2-1.png"></td>
+                            <td><img src="/static/images/moca/zh/8.1/q2-2.png"></td>
+                            <td><img src="/static/images/moca/zh/8.1/q2-3.png"></td>
+                            <td>得分</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>狮子</td>
+                            <td>狮子</td>
+                            <td>狮子</td>
+                            <td><input class="score" type="text">/5</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th colspan="6">记忆 (不计分)</th>
+                        </tr>
+                        <tr>
+                            <td>面孔</td>
+                            <td>天鹅绒</td>
+                            <td>教堂</td>
+                            <td>菊花</td>
+                            <td>红色</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td colspan="5">第一次：<audio src="https://www.w3school.com.cn/i/song.ogg" controls="controls"></audio>&nbsp;&nbsp;&nbsp;&nbsp;第二次：<audio src="https://www.w3school.com.cn/i/song.ogg" controls="controls"></audio></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>
