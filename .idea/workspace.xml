@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ADAD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADAD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/doctor.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/doctor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/doctor.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/doctor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/zh/doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/doctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ADAD/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADAD/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/zh/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/report.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,17 +70,25 @@
       </set>
     </option>
   </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="ADAD/invalid/Django" />
+    </ignored-facets>
+  </component>
   <component name="ProjectId" id="1R5AbdvoIWc5tlQlr3NXPrUAJwi" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="1" id="添加" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,7 +96,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -113,20 +122,8 @@
       <recent name="G:\workspace\ADAD\static\images\moca\zh" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Django server.ADAD">
-    <configuration name="predict_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Unknown.ADAD1522314786">
+    <configuration name="predict_new" type="PythonConfigurationType" factoryName="Python">
       <module name="ADAD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,6 +137,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/ad_model/text/predict_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ADAD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ADAD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ADAD/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,24 +191,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django server.ADAD" />
       <item itemvalue="Python.predict_new" />
+      <item itemvalue="Python.settings" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.predict_new" />
+        <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -277,6 +285,64 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582923266935">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="309" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582923266935" />
+    <state x="571" y="97" key="#predict_new" timestamp="1582920187875">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="571" y="97" key="#predict_new/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582920187875" />
+    <state x="633" y="219" key="FileChooserDialogImpl" timestamp="1582920788779">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="633" y="219" key="FileChooserDialogImpl/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582920788779" />
+    <state width="1685" height="300" key="GridCell.Tab.0.bottom" timestamp="1583007044596">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.0.bottom/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
+    <state width="1685" height="300" key="GridCell.Tab.0.center" timestamp="1583007044596">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.0.center/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
+    <state width="1685" height="300" key="GridCell.Tab.0.left" timestamp="1583007044596">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.0.left/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
+    <state width="1685" height="300" key="GridCell.Tab.0.right" timestamp="1583007044596">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.0.right/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
+    <state width="1685" height="300" key="GridCell.Tab.1.bottom" timestamp="1583007044597">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.1.bottom/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
+    <state width="1685" height="300" key="GridCell.Tab.1.center" timestamp="1583007044597">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.1.center/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
+    <state width="1685" height="300" key="GridCell.Tab.1.left" timestamp="1583007044597">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.1.left/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
+    <state width="1685" height="300" key="GridCell.Tab.1.right" timestamp="1583007044597">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1685" height="300" key="GridCell.Tab.1.right/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
+    <state x="144" y="132" key="SettingsEditor" timestamp="1583001577786">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="144" y="132" key="SettingsEditor/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583001577786" />
+    <state x="549" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1582529794827">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="549" y="288" key="com.intellij.ide.util.TipDialog/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582529794827" />
+    <state x="421" y="200" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583007035196">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="421" y="200" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007035196" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ADAD$predict_new.coverage" NAME="predict_new Coverage Results" MODIFIED="1559219517708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/ad_model/text" />

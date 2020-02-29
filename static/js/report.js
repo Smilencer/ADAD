@@ -12,7 +12,7 @@ function loadText(ipt) {
         $("#report").val(txtFile);
         $("#report").textinput("refresh");
     }
-    reader.readAsText(file, 'gbk');
+    reader.readAsText(file, 'uft-8');
 }
 
 function diagnosis() {
