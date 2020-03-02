@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ADAD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ADAD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ADAD/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ADAD/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/zh/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/zh/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +118,7 @@
       <recent name="G:\workspace\ADAD\static\images\moca\zh" />
     </key>
   </component>
-  <component name="RunManager" selected="Unknown.ADAD1522314786">
+  <component name="RunManager" selected="Python.predict_new">
     <configuration name="predict_new" type="PythonConfigurationType" factoryName="Python">
       <module name="ADAD" />
       <option name="INTERPRETER_OPTIONS" value="" />
