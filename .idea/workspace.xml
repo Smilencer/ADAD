@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="149b1450-b301-420e-a3c8-2dbcd4661116" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myAPP/migrations/0001_initial.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +59,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="G:\workspace\ADAD\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="ADAD/invalid/Django" />
@@ -74,7 +67,6 @@
   <component name="ProjectId" id="1R5AbdvoIWc5tlQlr3NXPrUAJwi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -84,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,7 +84,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -118,8 +110,8 @@
       <recent name="G:\workspace\ADAD\static\images\moca\zh" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.predict_new">
-    <configuration name="predict_new" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.debug-runserver">
+    <configuration name="debug-runserver" type="PythonConfigurationType" factoryName="Python">
       <module name="ADAD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,13 +119,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/ad_model/text" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/ad_model/text/predict_new.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver 8001" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -141,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="ADAD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,11 +141,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ADAD" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ADAD/settings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,14 +179,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.predict_new" />
-      <item itemvalue="Python.settings" />
+      <item itemvalue="Python.debug-runserver" />
+      <item itemvalue="Python.manage" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.settings" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -274,63 +261,70 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582923266935">
+    <state x="98" y="67" width="1089" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587936072129">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="309" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582923266935" />
+    <state x="98" y="67" width="1089" height="811" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587936072129" />
+    <state x="423" y="177" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1587884486727">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="423" y="177" key="#com.intellij.ide.macro.MacrosDialog/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587884486727" />
+    <state x="534" y="199" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587611847521">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="534" y="199" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587611847521" />
     <state x="571" y="97" key="#predict_new" timestamp="1582920187875">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="571" y="97" key="#predict_new/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582920187875" />
-    <state x="633" y="219" key="FileChooserDialogImpl" timestamp="1582920788779">
+    <state x="633" y="219" key="FileChooserDialogImpl" timestamp="1588000658854">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="633" y="219" key="FileChooserDialogImpl/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1582920788779" />
-    <state width="1685" height="300" key="GridCell.Tab.0.bottom" timestamp="1583007044596">
+    <state x="633" y="219" key="FileChooserDialogImpl/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1588000658854" />
+    <state width="1685" height="94" key="GridCell.Tab.0.bottom" timestamp="1588357005111">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.0.bottom/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
-    <state width="1685" height="300" key="GridCell.Tab.0.center" timestamp="1583007044596">
+    <state width="1685" height="94" key="GridCell.Tab.0.bottom/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1588357005111" />
+    <state width="1685" height="94" key="GridCell.Tab.0.center" timestamp="1588357005111">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.0.center/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
-    <state width="1685" height="300" key="GridCell.Tab.0.left" timestamp="1583007044596">
+    <state width="1685" height="94" key="GridCell.Tab.0.center/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1588357005111" />
+    <state width="1685" height="94" key="GridCell.Tab.0.left" timestamp="1588357005111">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.0.left/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
-    <state width="1685" height="300" key="GridCell.Tab.0.right" timestamp="1583007044596">
+    <state width="1685" height="94" key="GridCell.Tab.0.left/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1588357005111" />
+    <state width="1685" height="94" key="GridCell.Tab.0.right" timestamp="1588357005111">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.0.right/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044596" />
-    <state width="1685" height="300" key="GridCell.Tab.1.bottom" timestamp="1583007044597">
+    <state width="1685" height="94" key="GridCell.Tab.0.right/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1588357005111" />
+    <state width="1685" height="157" key="GridCell.Tab.1.bottom" timestamp="1587747777731">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.1.bottom/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
-    <state width="1685" height="300" key="GridCell.Tab.1.center" timestamp="1583007044597">
+    <state width="1685" height="157" key="GridCell.Tab.1.bottom/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587747777731" />
+    <state width="1685" height="157" key="GridCell.Tab.1.center" timestamp="1587747777731">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.1.center/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
-    <state width="1685" height="300" key="GridCell.Tab.1.left" timestamp="1583007044597">
+    <state width="1685" height="157" key="GridCell.Tab.1.center/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587747777731" />
+    <state width="1685" height="157" key="GridCell.Tab.1.left" timestamp="1587747777731">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.1.left/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
-    <state width="1685" height="300" key="GridCell.Tab.1.right" timestamp="1583007044597">
+    <state width="1685" height="157" key="GridCell.Tab.1.left/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587747777731" />
+    <state width="1685" height="157" key="GridCell.Tab.1.right" timestamp="1587747777731">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1685" height="300" key="GridCell.Tab.1.right/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583007044597" />
-    <state x="144" y="132" key="SettingsEditor" timestamp="1583001577786">
+    <state width="1685" height="157" key="GridCell.Tab.1.right/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587747777731" />
+    <state x="144" y="132" key="SettingsEditor" timestamp="1587751778480">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="144" y="132" key="SettingsEditor/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1583001577786" />
+    <state x="144" y="132" key="SettingsEditor/-1920.208.1920.1020/0.0.1707.920@0.0.1707.920" timestamp="1587751778480" />
     <state x="549" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1582529794827">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
